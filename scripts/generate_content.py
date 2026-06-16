@@ -39,10 +39,17 @@ KESIN KURALLAR:
    - "A": Kisa, carpici tek mesaj (lavanta arka plan, buyuk baslik + alt metin)
    - "B": Insan/duygu/fikir temali icerik (gradient + 3D illustrasyon + balon)
    - "C": Coklu nokta/karsilastirma iceren icerik (koyu mavi, 3 ikonlu)
+   - "D": Carpici bir istatistik/sayi varsa (buyuk rakam vurgusu, koyu lacivert)
+   - "E": Liste/adim/kontrol listesi formatinda 3 madde varsa (numarali balon kartlar)
    - Twitter thread'ler ve founder kisisel postlar icin design_template: null
-7. design_icon_category sadece template "B" veya "C" secildiginde doldurulmali,
+7. design_icon_category sadece template "C" secildiginde doldurulmali,
    su degerlerden biri: kriz_yonetimi, ai_moderasyon, yorum_analizi, sentiment,
    multi_platform, genel
+8. design_template "D" secildiyse ayrica su alanlari doldur:
+   stat_number (sadece sayi, orn "73"), stat_unit (orn "%"), stat_label (kisa cumle)
+9. design_template "E" secildiyse ayrica su alanlari doldur:
+   list_item_1, list_item_2, list_item_3 (her biri kisa, tek cumlelik madde)
+   design_headline alani E icin liste basligi olarak kullanilir
 
 CIKTI FORMATI - COK ONEMLI:
 Her icerik icin TEK SATIRDA, gecerli bir JSON nesnesi yaz (NDJSON / JSON Lines formati).
@@ -54,7 +61,9 @@ Her nesne tek satira sigmali.
 
 Her satirdaki JSON nesnesi su alanlari icermeli:
 platform, account_type, format, topic, caption, hashtags, design_template,
-design_headline, design_subhead, design_icon_category
+design_headline, design_subhead, design_icon_category,
+stat_number, stat_unit, stat_label, list_item_1, list_item_2, list_item_3
+(kullanilmayan alanlar icin null yaz, alani hic atlamadan null olarak ekle)
 """
 
 
