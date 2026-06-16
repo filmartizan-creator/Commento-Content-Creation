@@ -1,11 +1,14 @@
 """
 generate_design.py
 ===================
-content_*.json içindeki design_template alanına göre Şablon A/B/C'yi
+content_*.json içindeki design_template alanına göre Şablon A/B/C/D/E'yi
 doldurup PNG olarak render eder (Playwright + headless Chromium).
 
-Şablon B, config.ILLUSTRATION_LIBRARY'deki 3D illüstrasyonları kullanır
-(design_icon_category alanına göre eşleştirilir).
+A: Lavanta arka plan, çarpıcı tek mesaj
+B: Gradient + 3D illüstrasyon + balon (config.ILLUSTRATION_LIBRARY kullanır)
+C: Koyu mavi, 3 ikonlu karşılaştırma (config.ICON_LIBRARY kullanır)
+D: Büyük istatistik/sayı vurgusu, balon içinde açıklama
+E: Numaralı balon kartlardan oluşan checklist/liste
 """
 
 import json
@@ -95,6 +98,24 @@ def render_post(post: dict, index: int, week_label: str) -> str | None:
             "ICON1": f"../assets/icons/{icons[0]}",
             "ICON2": f"../assets/icons/{icons[1]}",
             "ICON3": f"../assets/icons/{icons[2]}",
+            "CTA": "Yorumlarınızı anlamlandırın → commento.co",
+        })
+
+    elif template.upper() == "D":
+        html = fill_template("d", {
+            "STAT_NUMBER": post.get("stat_number") or "",
+            "STAT_UNIT": post.get("stat_unit") or "",
+            "STAT_LABEL": post.get("stat_label") or subhead,
+            "SUBHEAD": subhead,
+            "CTA": "Yorumlarınızı anlamlandırın → commento.co",
+        })
+
+    elif template.upper() == "E":
+        html = fill_template("e", {
+            "HEADLINE": headline,
+            "ITEM1": post.get("list_item_1") or "",
+            "ITEM2": post.get("list_item_2") or "",
+            "ITEM3": post.get("list_item_3") or "",
             "CTA": "Yorumlarınızı anlamlandırın → commento.co",
         })
 
