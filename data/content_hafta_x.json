@@ -1,0 +1,71 @@
+[
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "text_post",
+    "topic": "Social media comments are data — but most brands still can't read them",
+    "caption": "Hundreds of comments are posted about your brand every single day.\n\nBut how many are actually read? Analyzed? Turned into action?\n\nTeams using Commento quickly realize: comments aren't just feedback — they carry purchase intent, complaint signals, early crisis warnings, and genuine brand love.\n\nAI separates these signals in milliseconds. So you can focus on the right comment at the right moment.\n\nReady to start reading your comment data?",
+    "hashtags": [
+      "#SocialMediaAnalytics",
+      "#SentimentAnalysis",
+      "#CommentManagement",
+      "#BrandStrategy",
+      "#Commento"
+    ],
+    "design_template": "A",
+    "design_headline": "Your comments are talking. Are you listening?",
+    "design_subhead": "Uncover the intent behind every comment with AI.",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta_x_01_social-media-comments-are-data-but-most-_templateA.png"
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "text_post",
+    "topic": "Kriz sinyalleri yorumlarda gizlidir — ama çoğu marka çok geç fark eder",
+    "caption": "Büyük krizlerin %80'i önce yorum bölümünde başlar.\n\nTek bir viral şikayet değil — benzer tonu taşıyan 12-15 yorum, aynı saatte, farklı platformlarda.\n\nCommento bu paterni görür. Siz görmeden önce.\n\nKriz erken uyarı sistemi böyle çalışır.",
+    "hashtags": [
+      "#KrizYonetimi",
+      "#Commento"
+    ],
+    "design_template": "D",
+    "design_headline": "Kriz, yorum bölümünde başlar.",
+    "design_subhead": "Siz fark etmeden önce AI görür.",
+    "design_icon_category": null,
+    "stat_number": "80",
+    "stat_unit": "%",
+    "stat_label": "Büyük krizler önce yorum bölümünde sinyal verir",
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta_x_02_kriz-sinyalleri-yorumlarda-gizlidir-ama-_templateD.png"
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "text_post",
+    "topic": "Crisis signals hide in comments — most brands notice too late",
+    "caption": "80% of major brand crises start in the comment section.\n\nNot one viral complaint — but 12–15 comments with the same tone, same hour, across different platforms.\n\nCommento spots the pattern. Before you do.\n\nThis is what early crisis detection actually looks like.",
+    "hashtags": [
+      "#CrisisManagement",
+      "#Commento"
+    ],
+    "design_template": "D",
+    "design_headline": "Crises start in the comments.",
+    "design_subhead": "AI sees it before you do.",
+    "design_icon_category": null,
+    "stat_number": "80",
+    "stat_unit": "%",
+    "stat_label": "Major crises first signal in comment sections",
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta_x_03_crisis-signals-hide-in-comments-most-bra_templateD.png"
+  }
+]
