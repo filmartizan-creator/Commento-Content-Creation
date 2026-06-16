@@ -1,0 +1,54 @@
+name: Haftalık Commento İçerik Üretimi
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    # Her Pazar 18:00 UTC (Türkiye saatiyle 21:00) çalışır
+    - cron: '0 18 * * 0'
+  workflow_dispatch:
+    inputs:
+      week_label:
+        description: 'Hafta etiketi (örn: Hafta 3)'
+        required: false
+        default: ''
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo'yu çek
+        uses: actions/checkout@v4
+
+      - name: Python kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Bağımlılıkları kur
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium --with-deps
+
+      - name: Haftalık içerik üretimini çalıştır
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_SHEETS_CREDENTIALS_JSON: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS_JSON }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+        run: |
+          WEEK_LABEL="${{ github.event.inputs.week_label }}"
+          if [ -z "$WEEK_LABEL" ]; then
+            WEEK_LABEL="Hafta $(date +%V)"
+          fi
+          python scripts/run_weekly.py "$WEEK_LABEL"
+
+      - name: Üretilen dosyaları commit et
+        run: |
+          git config user.name "commento-bot"
+          git config user.email "bot@commento.local"
+          git add data/ output/
+          git diff --staged --quiet || git commit -m "Otomatik içerik üretimi: $(date +%Y-%m-%d)"
+          git fetch origin main
+          git rebase origin/main || (git rebase --abort; exit 1)
+          git push
