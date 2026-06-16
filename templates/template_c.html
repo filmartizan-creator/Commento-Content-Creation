@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+  :root {
+    --bg: #4D5DDB;
+    --bubble: #EDEFFB;
+    --text: #1B2A8F;
+    --sub: #2C3A9E;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; -webkit-font-smoothing: antialiased; }
+
+  html, body {
+    width: 1080px;
+    height: 1350px;
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .logo {
+    position: absolute;
+    top: 64px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 64px;
+  }
+
+  /* Main headline bubble */
+  .bubble-main {
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    width: 560px;
+    background: var(--bubble);
+    border-radius: 28px 28px 28px 6px;
+    padding: 48px 44px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.10);
+  }
+  .bubble-main::after{
+    content:"";
+    position:absolute;
+    left: 50px; bottom:-30px;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 30px 26px 0 0;
+    border-color: var(--bubble) transparent transparent transparent;
+  }
+  .bubble-main .headline {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 1.18;
+    color: var(--text);
+    letter-spacing: -1px;
+  }
+
+  /* Sub bubble */
+  .bubble-sub {
+    position: absolute;
+    top: 660px;
+    left: 70px;
+    width: 380px;
+    background: var(--bubble);
+    border-radius: 6px 24px 24px 24px;
+    padding: 40px 40px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.10);
+  }
+  .bubble-sub::before {
+    content:"";
+    position:absolute;
+    left: 36px; top: -28px;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 0 0 28px 24px;
+    border-color: transparent transparent var(--bubble) transparent;
+  }
+  .bubble-sub .subhead {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.4;
+    color: var(--sub);
+  }
+
+  /* Right vertical icon pill */
+  .icon-pill {
+    position: absolute;
+    top: 300px;
+    right: 70px;
+    width: 220px;
+    height: 760px;
+    background: var(--bubble);
+    border-radius: 32px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.10);
+  }
+  .icon-pill::after {
+    content:"";
+    position: absolute;
+    left: -50px;
+    top: 280px;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 50px 60px 50px 0;
+    border-color: transparent var(--bubble) transparent transparent;
+  }
+
+  .icon-box {
+    position: absolute;
+    left: 30px;
+    width: 160px;
+    height: 160px;
+    background: var(--bg);
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-box img { width: 84px; height: 84px; }
+  .icon-box.i1 { top: 50px; }
+  .icon-box.i2 { top: 290px; }
+  .icon-box.i3 { top: 530px; }
+
+  .cta {
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--bubble);
+  }
+</style>
+</head>
+<body>
+
+  <img class="logo" src="../assets/logo_white.png">
+
+  <div class="bubble-main">
+    <div class="headline">{{HEADLINE}}</div>
+  </div>
+
+  <div class="bubble-sub">
+    <div class="subhead">{{SUBHEAD}}</div>
+  </div>
+
+  <div class="icon-pill">
+    <div class="icon-box i1"><img src="{{ICON1}}"></div>
+    <div class="icon-box i2"><img src="{{ICON2}}"></div>
+    <div class="icon-box i3"><img src="{{ICON3}}"></div>
+  </div>
+
+  <div class="cta">{{CTA}}</div>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+  :root {
+    --bg: #E7E9FB;
+    --blue: #4D5DDB;
+    --text: #0E0E12;
+    --sub: #3A3A3F;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; -webkit-font-smoothing: antialiased; }
+
+  html, body {
+    width: 1080px;
+    height: 1350px;
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .deco-small {
+    position: absolute;
+    top: -36px;
+    left: 70px;
+    width: 170px;
+    height: 88px;
+    background: var(--blue);
+    border-radius: 26px 26px 26px 6px;
+    box-shadow: 8px 8px 0 rgba(0,0,0,0.07);
+  }
+  .deco-small::after{
+    content:"";
+    position:absolute;
+    left: 30px; bottom:-22px;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 22px 18px 0 0;
+    border-color: var(--blue) transparent transparent transparent;
+  }
+
+  .deco-large {
+    position: absolute;
+    top: 108px;
+    left: 70px;
+    width: 320px;
+    height: 158px;
+    background: var(--blue);
+    border-radius: 34px 34px 34px 8px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.07);
+  }
+  .deco-large::after{
+    content:"";
+    position:absolute;
+    left: 48px; bottom:-32px;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 32px 28px 0 0;
+    border-color: var(--blue) transparent transparent transparent;
+  }
+
+  .logo {
+    position: absolute;
+    top: 68px;
+    right: 70px;
+    height: 68px;
+    image-rendering: -webkit-optimize-contrast;
+  }
+
+  .content {
+    position: absolute;
+    top: 410px;
+    left: 70px;
+    right: 70px;
+  }
+
+  .headline {
+    font-weight: 800;
+    font-size: 76px;
+    line-height: 1.1;
+    color: var(--text);
+    letter-spacing: -1.5px;
+  }
+
+  .subhead {
+    margin-top: 36px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.45;
+    color: var(--sub);
+    max-width: 760px;
+  }
+
+  .deco-bottom-large {
+    position: absolute;
+    bottom: 232px;
+    right: -42px;
+    width: 340px;
+    height: 168px;
+    background: var(--blue);
+    border-radius: 34px 34px 8px 34px;
+    box-shadow: -10px 10px 0 rgba(0,0,0,0.07);
+  }
+  .deco-bottom-large::before{
+    content:"";
+    position:absolute;
+    right: 250px; top: -32px;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 0 28px 32px 0;
+    border-color: transparent transparent var(--blue) transparent;
+  }
+
+  .deco-bottom-small {
+    position: absolute;
+    bottom: 68px;
+    right: -32px;
+    width: 200px;
+    height: 98px;
+    background: var(--blue);
+    border-radius: 26px 26px 6px 26px;
+    box-shadow: -8px 8px 0 rgba(0,0,0,0.07);
+  }
+
+  .cta {
+    position: absolute;
+    bottom: 92px;
+    left: 70px;
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--text);
+  }
+</style>
+</head>
+<body>
+
+  <div class="deco-small"></div>
+  <div class="deco-large"></div>
+
+  <img class="logo" src="../assets/logo_blue.png">
+
+  <div class="content">
+    <div class="headline">{{HEADLINE}}</div>
+    <div class="subhead">{{SUBHEAD}}</div>
+  </div>
+
+  <div class="deco-bottom-large"></div>
+  <div class="deco-bottom-small"></div>
+
+  <div class="cta">{{CTA}}</div>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+  :root {
+    --bg: #4D5DDB;
+    --bg2: #6B7AE8;
+    --bubble: #EDEFFB;
+    --text: #1B2A8F;
+    --sub: #2C3A9E;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; -webkit-font-smoothing: antialiased; }
+
+  html, body {
+    width: 1080px;
+    height: 1350px;
+    background: linear-gradient(160deg, var(--bg) 0%, var(--bg2) 100%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+  }
+  .circle.c1 { width: 700px; height: 700px; top: -250px; right: -250px; }
+  .circle.c2 { width: 500px; height: 500px; bottom: -180px; left: -180px; background: rgba(255,255,255,0.05); }
+
+  .logo {
+    position: absolute;
+    top: 64px;
+    left: 70px;
+    height: 56px;
+  }
+
+  .hero {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 520px;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero img {
+    width: 440px;
+    height: 440px;
+    filter: drop-shadow(0 30px 60px rgba(0,0,0,0.25));
+  }
+
+  .bubble {
+    position: absolute;
+    top: 760px;
+    left: 70px;
+    right: 70px;
+    background: var(--bubble);
+    border-radius: 32px 32px 32px 8px;
+    padding: 56px 56px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.18);
+  }
+  .bubble::after{
+    content:"";
+    position:absolute;
+    left: 70px; top:-34px;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 0 0 34px 30px;
+    border-color: transparent transparent var(--bubble) transparent;
+  }
+  .bubble .headline {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 1.18;
+    color: var(--text);
+    letter-spacing: -1px;
+  }
+  .bubble .subhead {
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.45;
+    color: var(--sub);
+  }
+
+  .cta {
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.85);
+  }
+</style>
+</head>
+<body>
+
+  <div class="circle c1"></div>
+  <div class="circle c2"></div>
+
+  <img class="logo" src="../assets/logo_white.png">
+
+  <div class="hero">
+    <img src="{{ILLUSTRATION}}">
+  </div>
+
+  <div class="bubble">
+    <div class="headline">{{HEADLINE}}</div>
+    <div class="subhead">{{SUBHEAD}}</div>
+  </div>
+
+  <div class="cta">{{CTA}}</div>
+
+</body>
+</html>
