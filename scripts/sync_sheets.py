@@ -28,6 +28,7 @@ def get_client() -> gspread.Client:
     if not config.GOOGLE_SHEETS_CREDENTIALS_JSON:
         raise RuntimeError("GOOGLE_SHEETS_CREDENTIALS_JSON environment variable tanımlı değil.")
 
+    print(f"DEBUG: credentials uzunluk = {len(config.GOOGLE_SHEETS_CREDENTIALS_JSON or '')}")
     creds_dict = json.loads(config.GOOGLE_SHEETS_CREDENTIALS_JSON)
     creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
     return gspread.authorize(creds)
