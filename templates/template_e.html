@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+  :root {
+    --bg: #E7E9FB;
+    --blue: #4D5DDB;
+    --text: #0E0E12;
+    --sub: #3A3A3F;
+    --card: #FFFFFF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; -webkit-font-smoothing: antialiased; }
+
+  html, body {
+    width: 1080px;
+    height: 1350px;
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .logo {
+    position: absolute;
+    top: 64px;
+    left: 70px;
+    height: 52px;
+  }
+
+  .deco {
+    position: absolute;
+    top: -30px;
+    right: 60px;
+    width: 150px;
+    height: 78px;
+    background: var(--blue);
+    border-radius: 24px 24px 24px 6px;
+    opacity: 0.9;
+  }
+  .deco::after {
+    content: "";
+    position: absolute;
+    left: 30px; bottom: -18px;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 20px 16px 0 0;
+    border-color: var(--blue) transparent transparent transparent;
+  }
+
+  .headline {
+    position: absolute;
+    top: 180px;
+    left: 70px;
+    right: 70px;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 1.15;
+    color: var(--text);
+    letter-spacing: -1px;
+  }
+
+  .list {
+    position: absolute;
+    top: 410px;
+    left: 70px;
+    right: 70px;
+  }
+
+  .item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 46px;
+    background: var(--card);
+    border-radius: 26px 26px 26px 8px;
+    padding: 32px 36px;
+    box-shadow: 0 10px 28px rgba(31,42,143,0.08);
+  }
+  .item::after {
+    content: "";
+    position: absolute;
+    left: 50px; bottom: -22px;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 26px 22px 0 0;
+    border-color: var(--card) transparent transparent transparent;
+  }
+
+  .item .num {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--blue);
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item .text {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.35;
+  }
+
+  .cta {
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    right: 70px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--sub);
+  }
+</style>
+</head>
+<body>
+
+  <div class="deco"></div>
+
+  <img class="logo" src="../assets/logo_blue.png">
+
+  <div class="headline">{{HEADLINE}}</div>
+
+  <div class="list">
+    <div class="item">
+      <div class="num">1</div>
+      <div class="text">{{ITEM1}}</div>
+    </div>
+    <div class="item">
+      <div class="num">2</div>
+      <div class="text">{{ITEM2}}</div>
+    </div>
+    <div class="item">
+      <div class="num">3</div>
+      <div class="text">{{ITEM3}}</div>
+    </div>
+  </div>
+
+  <div class="cta">{{CTA}}</div>
+
+</body>
+</html>
