@@ -43,12 +43,15 @@ jobs:
           fi
           python scripts/run_weekly.py "$WEEK_LABEL"
 
-      - name: Üretilen dosyaları commit et
+     - name: Üretilen dosyaları commit et
         run: |
           git config user.name "commento-bot"
           git config user.email "bot@commento.local"
           git add data/ output/
           git diff --staged --quiet || git commit -m "Otomatik içerik üretimi: $(date +%Y-%m-%d)"
-          git fetch origin main
-          git rebase origin/main || (git rebase --abort; exit 1)
-          git push
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git merge origin/main -X ours -m "Merge remote-tracking branch" --no-edit && git push && break
+            echo "Push başarısız, tekrar deneniyor... ($i)"
+            sleep 5
+          done
