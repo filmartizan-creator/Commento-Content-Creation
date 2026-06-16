@@ -66,6 +66,8 @@ def sync_to_sheets(content_path: str, week_label: str):
 
         caption_full = post.get("caption", "")
         hashtags = post.get("hashtags", "")
+if isinstance(hashtags, list):
+    hashtags = " ".join(hashtags)
         design_path = post.get("design_image_path", "")
         note = f"Otomatik üretildi ({week_label})"
         if design_path:
