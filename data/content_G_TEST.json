@@ -1,0 +1,320 @@
+[
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Carousel/Döküman",
+    "topic": "Bir yorum aslında ne söyler? — 4 katmanlı okuma rehberi",
+    "caption": "Slide 1: Bir müşteri şunu yazdı: 'Harika ürün, ama teslimat berbattı.' | Slide 2: Çoğu marka bunu görür: Olumsuz yorum → sil ya da standart özür yolla. | Slide 3: Commento'nun gördüğü 4 katman: 1) Sentiment: Karışık (ürün +, teslimat -) 2) Niyet: Şikâyet değil, uyarı — müşteri kaybetmek istemiyor 3) Aciliyet: Orta. Tek yorum ama benzer kalıp son 48 saatte 12 kez tekrarlandı 4) Kriz sinyali: Teslimat problemi lokalize mi, sistemik mi? | Slide 4: Tek yorumdan bu kadar bilgi çıkar. Ama bunu 10.000 yorumda elle yapmak imkânsız. | Slide 5: Commento her yorumu bu 4 boyutta otomatik analiz eder — Instagram, Facebook ve YouTube'da eş zamanlı. | Slide 6: Yorumlarınız sizin için konuşuyor. Commento onu çeviriyor.",
+    "hashtags": [
+      "#YorumAnalizi",
+      "#SentimentAnaliz",
+      "#SosyalDinleme",
+      "#MüşteriVerisi",
+      "#Commento",
+      "#B2BSaaS"
+    ],
+    "design_template": "C",
+    "design_headline": "Bir yorum aslında ne söylüyor?",
+    "design_subhead": "4 katmanlı yorum analizi rehberi",
+    "design_icon_category": "yorum_analizi",
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_01_bir-yorum-aslında-ne-söyler-4-katmanlı-o_s1_gpt.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_01_bir-yorum-aslında-ne-söyler-4-katmanlı-o_s1_gpt.png",
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_01_bir-yorum-aslında-ne-söyler-4-katmanlı-o_s2_gpt.png",
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_01_bir-yorum-aslında-ne-söyler-4-katmanlı-o_s3_gpt.png",
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_01_bir-yorum-aslında-ne-söyler-4-katmanlı-o_s4_gpt.png",
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_01_bir-yorum-aslında-ne-söyler-4-katmanlı-o_s5_gpt.png",
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_01_bir-yorum-aslında-ne-söyler-4-katmanlı-o_s6_gpt.png"
+    ]
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Carousel/Döküman",
+    "topic": "What does a comment actually say? — A 4-layer reading guide",
+    "caption": "Slide 1: A customer wrote: 'Great product, but delivery was terrible.' | Slide 2: What most brands do: See a negative comment → delete it or send a standard apology. | Slide 3: The 4 layers Commento reads: 1) Sentiment: Mixed (product +, delivery -) 2) Intent: Not a complaint — a warning. The customer still wants to stay. 3) Urgency: Medium. One comment, but the same pattern has appeared 12 times in the last 48 hours. 4) Crisis signal: Is the delivery problem localized or systemic? | Slide 4: That's how much a single comment can reveal. But doing this manually across 10,000 comments is impossible. | Slide 5: Commento analyzes every comment across these 4 dimensions automatically — simultaneously on Instagram, Facebook, and YouTube. | Slide 6: Your comments are talking. Commento translates.",
+    "hashtags": [
+      "#CommentAnalysis",
+      "#SentimentAnalysis",
+      "#SocialListening",
+      "#CustomerData",
+      "#Commento",
+      "#B2BSaaS"
+    ],
+    "design_template": "C",
+    "design_headline": "What does a comment actually say?",
+    "design_subhead": "A 4-layer comment analysis guide",
+    "design_icon_category": "yorum_analizi",
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_02_what-does-a-comment-actually-say-a-4-lay_s1_gpt.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_02_what-does-a-comment-actually-say-a-4-lay_s1_gpt.png",
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_02_what-does-a-comment-actually-say-a-4-lay_s2_gpt.png",
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_02_what-does-a-comment-actually-say-a-4-lay_s3_gpt.png",
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_02_what-does-a-comment-actually-say-a-4-lay_s4_gpt.png",
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_02_what-does-a-comment-actually-say-a-4-lay_s5_gpt.png",
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_02_what-does-a-comment-actually-say-a-4-lay_s6_gpt.png"
+    ]
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "Kriz yorumlarda başlar, PR'da biter",
+    "caption": "Bir rebranding açıklandı. Yorumlar ilk 2 saatte patladı.\n\nMarka bunu 14 saat sonra fark etti.\n\nO 14 saatte: trend oldu, medyaya düştü, hisse fiyatı geriledi.\n\nKriz PR meselesi değildi. Yorum okuma meselesiydi.\n\nCommento kriz sinyallerini yorumlarda, habere dönüşmeden önce yakalar.",
+    "hashtags": [
+      "#KrizYönetimi",
+      "#Commento"
+    ],
+    "design_template": "A",
+    "design_headline": "Kriz yorumlarda başlar.",
+    "design_subhead": "PR'a taşındığında çok geç.",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_03_kriz-yorumlarda-başlar-prda-biter_gpt.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_03_kriz-yorumlarda-başlar-prda-biter_gpt.png"
+    ]
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "Crisis starts in comments, ends in PR",
+    "caption": "A rebrand was announced. Comments exploded within 2 hours.\n\nThe brand noticed 14 hours later.\n\nIn those 14 hours: it trended, hit the press, stock dipped.\n\nIt wasn't a PR problem. It was a comment-reading problem.\n\nCommento catches crisis signals in comments before they become headlines.",
+    "hashtags": [
+      "#CrisisManagement",
+      "#Commento"
+    ],
+    "design_template": "A",
+    "design_headline": "Crisis starts in comments.",
+    "design_subhead": "By the time it hits PR, it's too late.",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_04_crisis-starts-in-comments-ends-in-pr_gpt.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_04_crisis-starts-in-comments-ends-in-pr_gpt.png"
+    ]
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Thread",
+    "topic": "Sosyal dinlemede olgunlaşmış markalar krizlere 4.3x daha hızlı yanıt veriyor — fark ne?",
+    "caption": "1/ Sosyal dinlemede olgunlaşmış markalar, krizlere ortalama 4.3x daha hızlı yanıt veriyor. (State of Social Listening 2025)\n\nPeki bu fark nereden geliyor? Araç mı, ekip mi, süreç mi? Kısa bir thread: | 2/ Fark araçta değil, sinyalde.\n\nÇoğu marka yorumları toplar. Olgun markalar yorumlardaki niyeti okur.\n\n'Teslimat geç geldi' → şikâyet mi, churn sinyali mi, kriz habercisi mi?\n\nBu ayrımı görmek zaman kazandırıyor. | 3/ Fark kanalda da değil.\n\nBir marka Instagram'da sakin görünebilir, YouTube'da yanıyor olabilir.\n\nMulti-platform analiz olmadan tablo eksik kalır — her zaman. | 4/ Fark yanıt hızında da değil, öncelik sırasında.\n\nHer yorum eşit değil. Aciliyet skoru olmayan bir ekip, kritik yorumu sıradan yorumun altında görür.\n\nHangisine önce yanıt vermeli? Bunu insan gözü kaçırır, AI kaçırmaz. | 5/ Commento tam bu üç farkı kapatmak için yapıldı:\n→ Niyet analizi\n→ Multi-platform birleştirme\n→ Aciliyet skorlaması\n\nYorum veriniz var. Şimdi onu okuyun.",
+    "hashtags": [
+      "#SosyalDinleme",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_05_sosyal-dinlemede-olgunlaşmış-markalar-kr_gpt.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_05_sosyal-dinlemede-olgunlaşmış-markalar-kr_gpt.png"
+    ]
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Thread",
+    "topic": "Brands with mature social listening respond to crises 4.3x faster — what's the actual difference?",
+    "caption": "1/ Brands with mature social listening capabilities respond to crises 4.3x faster than peers relying on traditional monitoring. (State of Social Listening 2025)\n\nSo where does that gap actually come from? A short thread: | 2/ The gap isn't in the tools. It's in the signal.\n\nMost brands collect comments. Mature brands read the intent inside them.\n\n'Delivery was late' → complaint? churn signal? early crisis warning?\n\nTelling the difference saves time. A lot of it. | 3/ The gap isn't in the channel either.\n\nA brand can look quiet on Instagram while its YouTube section is on fire.\n\nWithout multi-platform analysis, you're always working with an incomplete picture. | 4/ The gap isn't even in response speed. It's in prioritization.\n\nNot every comment is equal. Without an urgency score, a team buries the critical comment under 50 routine ones.\n\nWhich do you reply to first? Human eyes miss this. AI doesn't. | 5/ Commento was built to close exactly these three gaps:\n→ Intent analysis\n→ Multi-platform consolidation\n→ Urgency scoring\n\nYou already have comment data. Time to actually read it.",
+    "hashtags": [
+      "#SocialListening",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_06_brands-with-mature-social-listening-resp_gpt.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_06_brands-with-mature-social-listening-resp_gpt.png"
+    ]
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Build-in-public: Müşteriler 'yorum moderasyonu' istediklerini sanıyor, aslında farklı bir şey istiyorlar",
+    "caption": "Bugün bir müşteriyle görüşme yaptım. 'Bize bir yorum moderasyon aracı lazım' dedi.\n\n20 dakika konuştuktan sonra anladım ki asıl sorun moderasyon değil.\n\nMarka her hafta yüzlerce yorum alıyor. Ekip bunları elle okuyor. Hangisinin 'önemli' olduğunu tahmin ediyor. Ve çoğu zaman önemli olan gecikmeli fark ediliyor.\n\nCommento'yu kurarken defalarca bunu duydum: 'Yorumları takip ediyoruz' diyorlar. Sonra soruyorum: 'Acil yorumu normal yorumdan nasıl ayırt ediyorsunuz?' Cevap çoğunlukla: 'Sezgiyle.'\n\nSezgi ölçeklenmez. Niyet analizi ölçeklenir.\n\nBugün fark ettim ki asıl sattığımız şey bir moderasyon aracı değil — yorumları gerçekten okuma kapasitesi.\n\nBu fark ufak görünüyor ama ürünü nasıl anlattığımızı tamamen değiştiriyor.",
+    "hashtags": [
+      "#BuildInPublic",
+      "#Commento",
+      "#Founder",
+      "#B2BSaaS",
+      "#ProductThinking",
+      "#SosyalMedya"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Build-in-public: Customers think they want comment moderation — they actually want something else",
+    "caption": "Had a customer call today. They said: 'We need a comment moderation tool.'\n\n20 minutes in, I realized the real problem wasn't moderation.\n\nThe brand gets hundreds of comments every week. The team reads them manually. They guess which ones 'matter.' And too often, the ones that actually matter get noticed late.\n\nBuilding Commento, I've heard this pattern over and over. 'We monitor our comments,' they say. Then I ask: 'How do you tell urgent from routine?' The answer is almost always: 'Intuition.'\n\nIntuition doesn't scale. Intent analysis does.\n\nToday I realized what we're actually selling isn't a moderation tool — it's the capacity to genuinely read comments.\n\nThat distinction sounds small. But it completely changes how we talk about the product.",
+    "hashtags": [
+      "#BuildInPublic",
+      "#Commento",
+      "#Founder",
+      "#B2BSaaS",
+      "#ProductThinking",
+      "#SocialMedia"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Kısa gözlem: %55 dinliyor, ama harekete geçmiyor",
+    "caption": "Tüketicilerin %55'i markaların sosyal dinlemede etkili olduğunu düşünüyor — ama bulgulara göre nadiren harekete geçiyorlar.\n\n(Sprout Social, 2025)\n\nBu veriyi gördüğümde Commento'nun neden var olduğunu bir kez daha anladım.\n\nDinlemek yeterli değil. Okumak gerekiyor.",
+    "hashtags": [
+      "#Commento",
+      "#SosyalDinleme"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Short observation: 55% listen, almost none act",
+    "caption": "55% of consumers think brands are effective at social listening — but say they rarely act on what they find.\n\n(Sprout Social, 2025)\n\nWhen I saw this stat, I understood again exactly why Commento exists.\n\nListening isn't enough. You have to read.",
+    "hashtags": [
+      "#Commento",
+      "#SocialListening"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "Görsel Post",
+    "topic": "Kriz anı — saat 23:40",
+    "caption": "Saat 23:40.\n\nBir müşteri yorumunu yazıyor.\n\nKimse okumuyor.\n\nSabah 07:00'de ekip geldiğinde konu trendde.\n\nO 7 saat fark yaratan şey: yorumu okuyan bir sistem olup olmadığı.\n\nCommento, sosyal medya yorumlarını gerçek zamanlı analiz eder. Kriz sinyali uyurken de görünür.\n\n↓ Bio'daki link ile başla.",
+    "hashtags": [
+      "#YorumAnalizi",
+      "#KrizYönetimi",
+      "#SosyalMedya",
+      "#Commento",
+      "#MüşteriDeneyimi",
+      "#SentimentAnaliz"
+    ],
+    "design_template": "B",
+    "design_headline": "Saat 23:40. Bir yorum yazılıyor.",
+    "design_subhead": "Sabah geldiğinizde konu trendde. 7 saat önce okusaydınız?",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_11_kriz-anı-saat-2340_gpt.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_11_kriz-anı-saat-2340_gpt.png"
+    ]
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "Görsel Post",
+    "topic": "Crisis moment — 11:40 PM",
+    "caption": "11:40 PM.\n\nA customer types a comment.\n\nNo one reads it.\n\nBy 7:00 AM when the team arrives — it's already trending.\n\nThose 7 hours? The only thing that changes the outcome is whether a system was reading.\n\nCommento analyzes social media comments in real time. Crisis signals stay visible, even while you sleep.\n\n↓ Link in bio to get started.",
+    "hashtags": [
+      "#CommentAnalysis",
+      "#CrisisManagement",
+      "#SocialMedia",
+      "#Commento",
+      "#CustomerExperience",
+      "#SentimentAnalysis"
+    ],
+    "design_template": "B",
+    "design_headline": "11:40 PM. A comment is typed.",
+    "design_subhead": "By morning it's trending. What if you'd read it 7 hours ago?",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_12_crisis-moment-1140-pm_gpt.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/g-test_12_crisis-moment-1140-pm_gpt.png"
+    ]
+  }
+]
