@@ -15,26 +15,30 @@ import re
 import sys
 
 try:
-    from openai import OpenAI
-    OPENAI_AVAILABLE = True
-except ImportError:
-    OPENAI_AVAILABLE = False
+        client = OpenAI(api_key=config.OPENAI_API_KEY)
+        slide_label = f" (Slide {slide_index+1}/{total_slides})" if total_slides > 1 else ""
+        print(f"  GPT Image uretiliyor: {filename}{slide_label}...")
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import config
+        response = client.images.generate(
+            model="gpt-image-1",
+            prompt=prompt,
+            size="1024x1536",
+            quality="high",
+            n=1,
+        )
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-AI_IMAGES_DIR = os.path.join(BASE_DIR, "assets", "ai_generated")
-ASSETS_DIR = os.path.join(BASE_DIR, "assets")
+        image_data = response.data[0].b64_json
+        if image_data:
+            with open(out_path, "wb") as f:
+                f.write(base64.b64decode(image_data))
+            print(f"  Kaydedildi: {filename}")
+            return out_path
 
-os.makedirs(AI_IMAGES_DIR, exist_ok=True)
+        print(f"  UYARI: Gorsel verisi bos geldi.")
+        return None
 
-
-def load_image_b64(path: str) -> str | None:
-    try:
-        with open(path, "rb") as f:
-            return base64.standard_b64encode(f.read()).decode("utf-8")
-    except Exception:
+    except Exception as e:
+        print(f"  UYARI: GPT Image hatasi: {e}")
         return None
 
 
