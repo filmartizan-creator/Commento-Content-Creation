@@ -1,20 +1,18 @@
 """
 generate_image.py
 ==================
-OpenAI gpt-image-1 kullanarak Sablon B icin arka plan/atmosfer gorseli uretir.
-Uretilen gorsel assets/ai_generated/ klasorune kaydedilir.
+OpenAI gpt-image-1 ile Commento icin tam sosyal medya gorseli uretir.
 
-Her gorsel icin konu bazli bir prompt olusturulur:
-- Markanin renk paleti ve stili prompt'a dahil edilir
-- Gorsel sonra HTML sablonumuzun ILLUSTRATION alanina yerlestirilir
-- Uzerine logo, balon, baslik bizim sistemimiz cizer
+- Tekil post: tek gorsel
+- Carousel: her slide icin ayri gorsel (slide_index parametresi ile)
+- Referans stil gorselleri base64 olarak GPT'ye verilir
+- Commento logosu referans olarak eklenir
 """
 
 import base64
 import os
 import re
 import sys
-import time
 
 try:
     from openai import OpenAI
@@ -27,92 +25,254 @@ import config
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AI_IMAGES_DIR = os.path.join(BASE_DIR, "assets", "ai_generated")
+ASSETS_DIR = os.path.join(BASE_DIR, "assets")
+
+os.makedirs(AI_IMAGES_DIR, exist_ok=True)
 
 
-STYLE_GUIDE = """
-3D render, high quality, professional, minimalist.
-Color palette: deep navy blue (#1B2A8F), medium blue (#4D5DDB), 
-light lavender (#E7E9FB), white accents.
-Style: clean, modern B2B SaaS aesthetic. 
-NO text, NO letters, NO words in the image.
-Square composition 1:1, centered subject.
-Soft shadows, subtle depth, premium feel.
+def load_image_b64(path: str) -> str | None:
+    try:
+        with open(path, "rb") as f:
+            return base64.standard_b64encode(f.read()).decode("utf-8")
+    except Exception:
+        return None
+
+
+def slugify(text: str, max_len: int = 35) -> str:
+    text = re.sub(r"[^\w\s-]", "", str(text), flags=re.UNICODE).strip().lower()
+    return re.sub(r"[\s_-]+", "-", text)[:max_len]
+
+
+BRAND_SPEC = """
+BRAND: Commento — AI-powered social media comment analytics SaaS.
+LOGO: Top-center or top-left "Commento" wordmark — letter C shaped as a speech bubble icon, 
+      followed by "ommento" in bold Poppins. Use exactly as shown in reference.
+COLOR PALETTE: 
+  - Background: soft lavender #E7E9FB (light posts) OR deep navy #1B2A8F (dark/bold posts)
+  - Primary blue: #4D5DDB
+  - Text dark: #0E0E12
+  - Text blue accent: #4D5DDB
+  - White: #FFFFFF
+TYPOGRAPHY: Poppins font family. Headlines bold/extrabold. Body regular/medium.
+STYLE: Clean, modern, premium B2B SaaS. Minimal clutter. 3D icons/elements welcome.
+       Speech bubble motif echoes the brand mark. Dot grid decorations subtly in corners.
+SIZE: 1080x1350px (4:5 portrait ratio for Instagram/LinkedIn).
 """
 
 
-TOPIC_PROMPTS = {
-    "kriz_yonetimi": "A glowing radar screen with ripple signals emanating outward, detecting invisible threats. Deep blue tones, futuristic, 3D render.",
-    "ai_moderasyon": "A sleek AI brain made of interconnected light nodes, filtering and sorting streams of data. Blue and lavender tones, 3D render.",
-    "yorum_analizi": "A magnifying glass over a stream of floating speech bubbles, each bubble containing subtle emotion indicators. Navy blue, 3D render.",
-    "sentiment": "Abstract human silhouette made of speech bubbles, radiating warmth and emotion. Blue to lavender gradient, 3D render.",
-    "multi_platform": "Multiple social media platform icons connected by elegant light streams into a single central hub. Deep blue, 3D render.",
-    "genel": "An elegant 3D speech bubble made of glass/crystal, floating in a deep blue space with subtle light reflections.",
-    "kriz": "A calm eye of a storm made of swirling social media icons. Deep navy blue, dramatic lighting, 3D render.",
-    "veri": "Abstract floating data nodes and connections forming a constellation pattern. Blue lavender tones, 3D render.",
-    "musteri": "A warm glowing customer profile icon surrounded by orbiting speech bubbles showing satisfaction signals. Blue tones, 3D render.",
-    "otomasyon": "Elegant robotic hands gently cradling a stream of social media comments. Navy blue, premium 3D render.",
-}
+def build_post_prompt(
+    topic: str,
+    caption: str,
+    headline: str,
+    subhead: str,
+    platform: str,
+    post_format: str,
+    slide_index: int = 0,
+    total_slides: int = 1,
+    slide_content: str = "",
+) -> str:
 
-DEFAULT_PROMPT = TOPIC_PROMPTS["genel"]
+    is_carousel = total_slides > 1
+    is_dark = any(k in (topic or "").lower() for k in ["kriz", "crisis", "uyari", "alert", "tehlike"])
 
+    bg_note = "dark navy #1B2A8F background" if is_dark else "soft lavender #E7E9FB background"
 
-def slugify(text: str) -> str:
-    text = re.sub(r"[^\w\s-]", "", text, flags=re.UNICODE).strip().lower()
-    return re.sub(r"[\s_-]+", "-", text)[:40]
-
-
-def get_image_prompt(topic: str, headline: str) -> str:
-    topic_lower = (topic or "").lower()
-    for key in TOPIC_PROMPTS:
-        if key in topic_lower:
-            base = TOPIC_PROMPTS[key]
-            break
+    if is_carousel:
+        slide_note = f"""
+CAROUSEL SLIDE {slide_index + 1} of {total_slides}:
+- Show slide number indicator: "{slide_index + 1}/{total_slides}" top-right corner (small, subtle)
+- If first slide (1/{total_slides}): bold hook headline, strong visual, entice to swipe
+- If middle slide: data visualization, comparison, or detailed insight
+- If last slide: CTA prominent, "commento.co" URL visible, summary or action step
+- Slide content for this slide: {slide_content or headline}
+- Navigation arrow bottom-right (→) on all slides except last
+"""
     else:
-        base = DEFAULT_PROMPT
+        slide_note = f"""
+SINGLE POST:
+- Headline: {headline}
+- Subheadline: {subhead}
+- CTA bottom: small text "commento.co →"
+"""
 
-    return f"{base}\n{STYLE_GUIDE}"
+    return f"""
+Design a professional social media post for Commento brand.
+
+{BRAND_SPEC}
+
+BACKGROUND: Use {bg_note}.
+
+POST TOPIC: {topic}
+PLATFORM: {platform}
+
+{slide_note}
+
+VISUAL DIRECTION:
+- Do NOT just put text on a plain background. Create rich visual storytelling.
+- Use ONE of these visual approaches (choose what fits the topic best):
+  (a) Phone/dashboard mockup showing Commento UI with relevant data
+  (b) Infographic with icons, stats, comparison cards (left/right or before/after)
+  (c) Abstract 3D elements: speech bubbles, sentiment indicators, data nodes
+  (d) Scenario visualization: floating comment cards from different platforms
+- Key insight or stat should be visually prominent (large number, bold color)
+- Speech bubbles are on-brand — use them as design elements where appropriate
+- 3D icons in brand blue are welcome (clocks, shields, magnifiers, charts, etc.)
+
+TEXT ON IMAGE:
+- Include the most important 1-2 lines of text as large display type
+- Do NOT copy the entire caption — distill to the visual punchline
+- Türkçe text is fine, render it accurately
+- Keep text minimal: the visual should do most of the storytelling
+
+CAPTION CONTEXT (for creative direction only, do not copy verbatim):
+{caption[:300]}
+
+OUTPUT: A single complete, print-ready social media post. No mockup frame around it.
+"""
 
 
-def generate_ai_image(topic: str, headline: str, week_label: str, index: int) -> str | None:
+def generate_post_image(
+    post: dict,
+    week_label: str,
+    index: int,
+    slide_index: int = 0,
+    total_slides: int = 1,
+    slide_content: str = "",
+) -> str | None:
+
     if not OPENAI_AVAILABLE:
-        print("UYARI: openai paketi yuklu degil, AI gorsel atlanıyor.")
+        print("  UYARI: openai paketi yuklu degil.")
         return None
 
-    api_key = config.OPENAI_API_KEY
-    if not api_key:
-        print("UYARI: OPENAI_API_KEY tanimli degil, AI gorsel atlaniyor.")
+    if not config.OPENAI_API_KEY:
+        print("  UYARI: OPENAI_API_KEY tanimli degil.")
         return None
 
-    prompt = get_image_prompt(topic, headline)
-    filename = f"{slugify(week_label)}_{index:02d}_{slugify(topic or 'gorsel')}.png"
+    topic = post.get("topic", "")
+    caption = post.get("caption", "")
+    headline = post.get("design_headline") or topic
+    subhead = post.get("design_subhead") or ""
+    platform = post.get("platform", "Instagram")
+    post_format = post.get("format", "")
+
+    slide_suffix = f"_s{slide_index + 1}" if total_slides > 1 else ""
+    filename = f"{slugify(week_label)}_{index:02d}_{slugify(topic)}{slide_suffix}.png"
     out_path = os.path.join(AI_IMAGES_DIR, filename)
 
     if os.path.exists(out_path):
-        print(f"  AI gorsel zaten mevcut: {filename}")
+        print(f"  Gorsel mevcut: {filename}")
         return out_path
 
-    try:
-        client = OpenAI(api_key=api_key)
-        print(f"  AI gorsel uretiliyor: {filename}...")
+    prompt = build_post_prompt(
+        topic=topic,
+        caption=caption,
+        headline=headline,
+        subhead=subhead,
+        platform=platform,
+        post_format=post_format,
+        slide_index=slide_index,
+        total_slides=total_slides,
+        slide_content=slide_content,
+    )
 
-        response = client.images.generate(
+    # Referans gorseller: logo + stil ornekleri
+    input_images = []
+
+    logo_b64 = load_image_b64(os.path.join(ASSETS_DIR, "logo_blue.png"))
+    if logo_b64:
+        input_images.append({
+            "type": "input_image",
+            "image_url": f"data:image/png;base64,{logo_b64}",
+        })
+
+    ref1_b64 = load_image_b64(os.path.join(ASSETS_DIR, "reference_style.png"))
+    if ref1_b64:
+        input_images.append({
+            "type": "input_image",
+            "image_url": f"data:image/png;base64,{ref1_b64}",
+        })
+
+    ref2_b64 = load_image_b64(os.path.join(ASSETS_DIR, "reference_style_2.png"))
+    if ref2_b64:
+        input_images.append({
+            "type": "input_image",
+            "image_url": f"data:image/png;base64,{ref2_b64}",
+        })
+
+    try:
+        client = OpenAI(api_key=config.OPENAI_API_KEY)
+        slide_label = f" (Slide {slide_index+1}/{total_slides})" if total_slides > 1 else ""
+        print(f"  GPT Image uretiliyor: {filename}{slide_label}...")
+
+        # gpt-image-1 referans gorsel destekliyor
+        content = [{"type": "text", "text": prompt}] + input_images
+
+        response = client.responses.create(
             model="gpt-image-1",
-            prompt=prompt,
-            size="1024x1024",
-            quality="medium",
+            input=[{"role": "user", "content": content}],
+            size="1024x1536",
+            quality="high",
             n=1,
         )
 
-        image_data = response.data[0].b64_json
-        if image_data:
-            with open(out_path, "wb") as f:
-                f.write(base64.b64decode(image_data))
-            print(f"  AI gorsel kaydedildi: {filename}")
-            return out_path
+        # Yaniti isle
+        for item in response.output:
+            if hasattr(item, "type") and item.type == "image_generation_call":
+                image_data = item.result
+                with open(out_path, "wb") as f:
+                    f.write(base64.b64decode(image_data))
+                print(f"  Kaydedildi: {filename}")
+                return out_path
 
-        print("  UYARI: AI gorsel verisi bos geldi.")
+        print(f"  UYARI: Gorsel verisi bos geldi.")
         return None
 
     except Exception as e:
-        print(f"  UYARI: AI gorsel uretimi basarisiz: {e}")
+        print(f"  UYARI: GPT Image hatasi: {e}")
         return None
+
+
+def generate_all_images_for_post(
+    post: dict,
+    week_label: str,
+    index: int,
+) -> list[str]:
+    """
+    Bir post icin tum gorselleri uretir.
+    Carousel icin her slide ayri ayri uretilir.
+    Dondurulen liste: [gorsel_yolu, ...] (carousel'da birden fazla)
+    """
+    post_format = post.get("format", "").lower()
+    caption = post.get("caption", "")
+
+    is_carousel = "carousel" in post_format or "dokuman" in post_format
+
+    if not is_carousel:
+        path = generate_post_image(post, week_label, index)
+        return [path] if path else []
+
+    # Carousel: caption'dan slide'lari ayikla (pipe ile ayrilmis)
+    slides_raw = caption.split("|")
+    slides = [s.strip() for s in slides_raw if s.strip()]
+
+    # En az 4, en fazla 6 slide
+    if len(slides) < 2:
+        # Pipe yoksa tek gorsel uret
+        path = generate_post_image(post, week_label, index)
+        return [path] if path else []
+
+    total = min(len(slides), 6)
+    paths = []
+    for i, slide_text in enumerate(slides[:total]):
+        path = generate_post_image(
+            post=post,
+            week_label=week_label,
+            index=index,
+            slide_index=i,
+            total_slides=total,
+            slide_content=slide_text,
+        )
+        if path:
+            paths.append(path)
+
+    return paths
