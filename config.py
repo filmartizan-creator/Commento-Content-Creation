@@ -14,12 +14,13 @@ import os
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 GOOGLE_SHEETS_CREDENTIALS_JSON = os.environ.get("GOOGLE_SHEETS_CREDENTIALS_JSON")  # service account JSON (string)
 GOOGLE_SHEET_ID = os.environ.get("GOOGLE_SHEET_ID")  # Commento_Icerik_Takip_Tablosu sheet ID
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")    # GPT Image icin
 
 # ------------------------------------------------------------------
 # CLAUDE API
 # ------------------------------------------------------------------
 CLAUDE_MODEL = "claude-sonnet-4-6"
-CLAUDE_MAX_TOKENS = 4000
+CLAUDE_MAX_TOKENS = 8000  # web search dongusu + 14 icerik icin yeterli pay
 
 # ------------------------------------------------------------------
 # PLATFORM AYARLARI
