@@ -125,30 +125,23 @@ def generate_week_content(week_label: str, used_themes: list[str] | None = None)
         lines = [l for l in lines if not l.strip().startswith("```")]
         raw_text = "\n".join(lines)
 
-    results = []
+   results = []
     errors = []
     for i, line in enumerate(raw_text.split("\n"), start=1):
         line = line.strip()
         if not line:
             continue
+        # Sadece JSON nesneleriyle baslayan satirlari isle
+        # Web search ara ciktilari ve aciklamalar { ile baslamaz
+        if not line.startswith("{"):
+            continue
         try:
             obj = json.loads(line, strict=False)
-            results.append(obj)
+            # Gecerli bir icerik nesnesi mi? platform alani olmali
+            if isinstance(obj, dict) and obj.get("platform"):
+                results.append(obj)
         except json.JSONDecodeError as e:
             errors.append(f"  Satir {i}: {e} -- icerik: {line[:120]}")
-
-    if not results:
-        raise RuntimeError(
-            "Claude'dan hicbir gecerli JSON satiri alinamadi.\n"
-            "Hatalar:\n" + "\n".join(errors) + "\n\nHam cevap:\n" + raw_text[:1000]
-        )
-
-    if errors:
-        print(f"UYARI: {len(errors)} satir parse edilemedi, {len(results)} icerik basariyla alindi.")
-        for err in errors:
-            print(err)
-
-    return results
 
 
 if __name__ == "__main__":
