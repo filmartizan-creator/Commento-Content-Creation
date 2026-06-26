@@ -80,10 +80,30 @@ def render_post(post: dict, index: int, week_label: str) -> str | None:
         })
 
     elif template.upper() == "B":
-        icon_cat = post.get("design_icon_category") or "genel"
-        illustration = config.ILLUSTRATION_LIBRARY.get(icon_cat, config.DEFAULT_ILLUSTRATION)
+        # Once GPT Image ile AI gorsel uretmeyi dene
+        ai_image_path = None
+        try:
+            from scripts.generate_image import generate_ai_image
+            ai_image_path = generate_ai_image(
+                topic=post.get("topic", ""),
+                headline=headline,
+                week_label=week_label,
+                index=index,
+            )
+        except Exception as e:
+            print(f"  AI gorsel modulu yuklenemedi: {e}")
+
+        if ai_image_path:
+            # AI gorsel bulundu — mutlak yolu HTML'e ver
+            illustration_src = f"file://{os.path.abspath(ai_image_path)}"
+        else:
+            # Fallback: mevcut 3D emoji illustrasyon
+            icon_cat = post.get("design_icon_category") or "genel"
+            illustration = config.ILLUSTRATION_LIBRARY.get(icon_cat, config.DEFAULT_ILLUSTRATION)
+            illustration_src = f"../assets/illustrations/{illustration}"
+
         html = fill_template("b", {
-            "ILLUSTRATION": f"../assets/illustrations/{illustration}",
+            "ILLUSTRATION": illustration_src,
             "HEADLINE": headline,
             "SUBHEAD": subhead,
             "CTA": "Yorumlarınızı anlamlandırın → commento.co",
