@@ -1,0 +1,52 @@
+[
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Carousel",
+    "topic": "Yorum analizinde kör noktalari kapatmanin 4 adimi",
+    "caption": "Slide 1: Yorumlarınızı okuyorsunuz — ama doğru soruları soruyor musunuz? | Slide 2: Kör Nokta 1 — Sadece sentiment izlemek. Olumlu/olumsuz ayrımı önemli, ama niyeti görmüyor. Bir yorum hem olumsuz hem yüksek satın alma niyeti taşıyabilir. | Slide 3: Kör Nokta 2 — Platformları ayrı ayrı değerlendirmek. Instagram'daki yorum Instagram kitlesiyle konuşuyor, YouTube yorumu farklı bir bağlamda geliyor. Birleştirmeden görmek yanıltıcı. | Slide 4: Kör Nokta 3 — Aciliyet sinyalini kaçırmak. Her şikâyet eşit değildir. Bazı yorumlar saatler içinde harekete geçmeyi gerektiriyor — ama bunlar kalabalıkta kayboluyor. | Slide 5: Kör Nokta 4 — Kriz sinyalini geç fark etmek. Krizler büyük bir patlamayla başlamaz. Yorumlarda hafif ama tekrarlayan şikâyetlerle filizlenir. Bunu erken yakalamak fark yaratır. | Slide 6: Commento bu dört boyutu aynı anda analiz eder: sentiment + niyet + aciliyet + kriz sinyali. Yorum veriniz strateji girdisine dönüşür.",
+    "hashtags": [
+      "#YorumAnalizi",
+      "#SentimentAnalysis",
+      "#KrizYönetimi",
+      "#SosyalMedya",
+      "#AIAnalitik",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Carousel",
+    "topic": "4 steps to closing blind spots in comment analysis",
+    "caption": "Slide 1: You're reading your comments — but are you asking the right questions? | Slide 2: Blind Spot 1 — Tracking only sentiment. Positive/negative matters, but it doesn't reveal intent. A comment can be negative and still carry high purchase intent. | Slide 3: Blind Spot 2 — Treating platforms in isolation. An Instagram comment speaks to a different audience context than a YouTube comment. Analyzing them separately gives you a distorted picture. | Slide 4: Blind Spot 3 — Missing urgency signals. Not all complaints are equal. Some comments require action within hours — but they get lost in the volume. | Slide 5: Blind Spot 4 — Catching crisis signals too late. Crises don't start with explosions. They simmer in comments — subtle, repeating complaints that most brands miss until it's costly. | Slide 6: Commento analyzes all four dimensions simultaneously: sentiment + intent + urgency + crisis signal. Your comment data becomes strategic input.",
+    "hashtags": [
+      "#CommentAnalysis",
+      "#SentimentAnalysis",
+      "#CrisisManagement",
+      "#SocialMedia",
+      "#AIAnalytics",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  }
+]
