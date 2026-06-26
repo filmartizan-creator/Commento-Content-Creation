@@ -43,10 +43,14 @@ def main(week_label: str):
     # 3. Tasarımları render et
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     for i, post in enumerate(content, start=1):
-        out_path = render_post(post, i, week_label.replace(" ", "_"))
-        if out_path:
-            post["design_image_path"] = out_path
-            print(f"[{i}] Görsel render edildi: {os.path.basename(out_path)}")
+        paths = render_post(post, i, week_label.replace(" ", "_"))
+        if paths:
+            post["design_image_path"] = paths[0]
+            post["design_image_paths"] = paths
+            for p in paths:
+                print(f"[{i}] Görsel render edildi: {os.path.basename(p)}")
+        else:
+            print(f"[{i}] Görsel yok (metin postu)")
 
     # 4. content_*.json'ı kaydet
     content_path = os.path.join(
