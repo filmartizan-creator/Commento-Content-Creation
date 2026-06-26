@@ -15,30 +15,26 @@ import re
 import sys
 
 try:
-        client = OpenAI(api_key=config.OPENAI_API_KEY)
-        slide_label = f" (Slide {slide_index+1}/{total_slides})" if total_slides > 1 else ""
-        print(f"  GPT Image uretiliyor: {filename}{slide_label}...")
+    from openai import OpenAI
+    OPENAI_AVAILABLE = True
+except ImportError:
+    OPENAI_AVAILABLE = False
 
-        response = client.images.generate(
-            model="gpt-image-1",
-            prompt=prompt,
-            size="1024x1536",
-            quality="high",
-            n=1,
-        )
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
 
-        image_data = response.data[0].b64_json
-        if image_data:
-            with open(out_path, "wb") as f:
-                f.write(base64.b64decode(image_data))
-            print(f"  Kaydedildi: {filename}")
-            return out_path
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+AI_IMAGES_DIR = os.path.join(BASE_DIR, "assets", "ai_generated")
+ASSETS_DIR = os.path.join(BASE_DIR, "assets")
 
-        print(f"  UYARI: Gorsel verisi bos geldi.")
-        return None
+os.makedirs(AI_IMAGES_DIR, exist_ok=True)
 
-    except Exception as e:
-        print(f"  UYARI: GPT Image hatasi: {e}")
+
+def load_image_b64(path: str) -> str | None:
+    try:
+        with open(path, "rb") as f:
+            return base64.standard_b64encode(f.read()).decode("utf-8")
+    except Exception:
         return None
 
 
@@ -49,9 +45,9 @@ def slugify(text: str, max_len: int = 35) -> str:
 
 BRAND_SPEC = """
 BRAND: Commento — AI-powered social media comment analytics SaaS.
-LOGO: Top-center or top-left "Commento" wordmark — letter C shaped as a speech bubble icon, 
+LOGO: Top-center or top-left "Commento" wordmark — letter C shaped as a speech bubble icon,
       followed by "ommento" in bold Poppins. Use exactly as shown in reference.
-COLOR PALETTE: 
+COLOR PALETTE:
   - Background: soft lavender #E7E9FB (light posts) OR deep navy #1B2A8F (dark/bold posts)
   - Primary blue: #4D5DDB
   - Text dark: #0E0E12
@@ -75,10 +71,8 @@ def build_post_prompt(
     total_slides: int = 1,
     slide_content: str = "",
 ) -> str:
-
     is_carousel = total_slides > 1
     is_dark = any(k in (topic or "").lower() for k in ["kriz", "crisis", "uyari", "alert", "tehlike"])
-
     bg_note = "dark navy #1B2A8F background" if is_dark else "soft lavender #E7E9FB background"
 
     if is_carousel:
@@ -89,14 +83,14 @@ CAROUSEL SLIDE {slide_index + 1} of {total_slides}:
 - If middle slide: data visualization, comparison, or detailed insight
 - If last slide: CTA prominent, "commento.co" URL visible, summary or action step
 - Slide content for this slide: {slide_content or headline}
-- Navigation arrow bottom-right (→) on all slides except last
+- Navigation arrow bottom-right (arrow) on all slides except last
 """
     else:
         slide_note = f"""
 SINGLE POST:
 - Headline: {headline}
 - Subheadline: {subhead}
-- CTA bottom: small text "commento.co →"
+- CTA bottom: small text "commento.co"
 """
 
     return f"""
@@ -119,13 +113,13 @@ VISUAL DIRECTION:
   (c) Abstract 3D elements: speech bubbles, sentiment indicators, data nodes
   (d) Scenario visualization: floating comment cards from different platforms
 - Key insight or stat should be visually prominent (large number, bold color)
-- Speech bubbles are on-brand — use them as design elements where appropriate
+- Speech bubbles are on-brand -- use them as design elements where appropriate
 - 3D icons in brand blue are welcome (clocks, shields, magnifiers, charts, etc.)
 
 TEXT ON IMAGE:
 - Include the most important 1-2 lines of text as large display type
-- Do NOT copy the entire caption — distill to the visual punchline
-- Türkçe text is fine, render it accurately
+- Do NOT copy the entire caption -- distill to the visual punchline
+- Turkish text is fine, render it accurately
 - Keep text minimal: the visual should do most of the storytelling
 
 CAPTION CONTEXT (for creative direction only, do not copy verbatim):
@@ -143,7 +137,6 @@ def generate_post_image(
     total_slides: int = 1,
     slide_content: str = "",
 ) -> str | None:
-
     if not OPENAI_AVAILABLE:
         print("  UYARI: openai paketi yuklu degil.")
         return None
@@ -179,56 +172,27 @@ def generate_post_image(
         slide_content=slide_content,
     )
 
-    # Referans gorseller: logo + stil ornekleri
-    input_images = []
-
-    logo_b64 = load_image_b64(os.path.join(ASSETS_DIR, "logo_blue.png"))
-    if logo_b64:
-        input_images.append({
-            "type": "input_image",
-            "image_url": f"data:image/png;base64,{logo_b64}",
-        })
-
-    ref1_b64 = load_image_b64(os.path.join(ASSETS_DIR, "reference_style.png"))
-    if ref1_b64:
-        input_images.append({
-            "type": "input_image",
-            "image_url": f"data:image/png;base64,{ref1_b64}",
-        })
-
-    ref2_b64 = load_image_b64(os.path.join(ASSETS_DIR, "reference_style_2.png"))
-    if ref2_b64:
-        input_images.append({
-            "type": "input_image",
-            "image_url": f"data:image/png;base64,{ref2_b64}",
-        })
-
     try:
         client = OpenAI(api_key=config.OPENAI_API_KEY)
         slide_label = f" (Slide {slide_index+1}/{total_slides})" if total_slides > 1 else ""
         print(f"  GPT Image uretiliyor: {filename}{slide_label}...")
 
-        # gpt-image-1 referans gorsel destekliyor
-        content = [{"type": "text", "text": prompt}] + input_images
-
-        response = client.responses.create(
+        response = client.images.generate(
             model="gpt-image-1",
-            input=[{"role": "user", "content": content}],
+            prompt=prompt,
             size="1024x1536",
             quality="high",
             n=1,
         )
 
-        # Yaniti isle
-        for item in response.output:
-            if hasattr(item, "type") and item.type == "image_generation_call":
-                image_data = item.result
-                with open(out_path, "wb") as f:
-                    f.write(base64.b64decode(image_data))
-                print(f"  Kaydedildi: {filename}")
-                return out_path
+        image_data = response.data[0].b64_json
+        if image_data:
+            with open(out_path, "wb") as f:
+                f.write(base64.b64decode(image_data))
+            print(f"  Kaydedildi: {filename}")
+            return out_path
 
-        print(f"  UYARI: Gorsel verisi bos geldi.")
+        print("  UYARI: Gorsel verisi bos geldi.")
         return None
 
     except Exception as e:
@@ -241,27 +205,18 @@ def generate_all_images_for_post(
     week_label: str,
     index: int,
 ) -> list[str]:
-    """
-    Bir post icin tum gorselleri uretir.
-    Carousel icin her slide ayri ayri uretilir.
-    Dondurulen liste: [gorsel_yolu, ...] (carousel'da birden fazla)
-    """
     post_format = post.get("format", "").lower()
     caption = post.get("caption", "")
-
     is_carousel = "carousel" in post_format or "dokuman" in post_format
 
     if not is_carousel:
         path = generate_post_image(post, week_label, index)
         return [path] if path else []
 
-    # Carousel: caption'dan slide'lari ayikla (pipe ile ayrilmis)
     slides_raw = caption.split("|")
     slides = [s.strip() for s in slides_raw if s.strip()]
 
-    # En az 4, en fazla 6 slide
     if len(slides) < 2:
-        # Pipe yoksa tek gorsel uret
         path = generate_post_image(post, week_label, index)
         return [path] if path else []
 
