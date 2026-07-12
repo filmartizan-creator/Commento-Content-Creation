@@ -1,0 +1,346 @@
+[
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "text_post",
+    "topic": "Yorumların yalnızca %3,5'ine yanıt veriliyor — marka itibarında görünmez kayıp",
+    "caption": "169 milyon yorumu analiz ettiklerinde buldukları rakam şaşırtıcı: Markalar 2025'te tüm yorumların sadece %3,5'ine yanıt verdi.\n\nGeri kalan %96,5 ne oluyor?\n\nBir kısmı spam. Bir kısmı şikayet. Bir kısmı satın alma niyeti taşıyan, cevap bekleyen gerçek bir müşteri.\n\nSorun şu: Bu üçünü birbirinden ayırt etmek için her yorumu tek tek okumak gerekiyor. Ve hacim bunu imkânsız kılıyor.\n\nBugün bir giyim markası yorum bölümündeki negatif bir dönüşü fark etmediği için reklam kampanyasını daha yayınlar yayınlamaz brand sentiment'ini +50'den -31'e düşürdü. Rakam kağıt üzerinde değil, gerçek müşteri kaybında görünür oldu.\n\nYorum analizi artık \"iyi olursa yapılır\" kategorisinde değil.\n\nCommento tam da burada devreye giriyor: Her yorumu okumak zorunda kalmadan, hangisinin acil olduğunu, hangisinin şikayet, hangisinin alım niyeti taşıdığını otomatik olarak çıkarıyor.\n\nYüzde 3,5 yeterli değil.",
+    "hashtags": [
+      "#SosyalDinleme",
+      "#YorumAnalizi",
+      "#MarkaKrizi",
+      "#MüşteriDeneyimi",
+      "#Commento"
+    ],
+    "design_template": "D",
+    "design_headline": "%3,5",
+    "design_subhead": "Markaların tüm yorumlara verdikleri yanıtın oranı — 2025",
+    "design_icon_category": null,
+    "stat_number": "3,5",
+    "stat_unit": "%",
+    "stat_label": "Markalar yorumların yalnızca bu kadarına yanıt veriyor",
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_01_yorumların-yalnızca-35ine-yanıt-veriliyo_templateD.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_01_yorumların-yalnızca-35ine-yanıt-veriliyo_templateD.png"
+    ]
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "text_post",
+    "topic": "Brands respond to just 3.5% of comments — the invisible reputation cost",
+    "caption": "A study of 169 million social media comments found something most brands aren't comfortable hearing: they responded to just 3.5% of all comments in 2025.\n\nThe other 96.5%? Ignored.\n\nSome of it is spam. Some of it is a complaint. And some of it is a real customer with purchase intent — waiting for a reply that never comes.\n\nThe problem isn't willingness. It's volume. And the inability to tell which comment actually matters.\n\nThis year, a major apparel brand's campaign launched to what looked like a traffic spike. What the team didn't catch in time: sentiment had swung from +50 to -31 in the comment section — before the PR team even had a draft response ready.\n\nThe comments knew first. The brand found out later.\n\nCommento surfaces what's urgent, what's a complaint, and what's a buying signal — without your team having to read every single reply.\n\n3.5% isn't a strategy. It's a gap.",
+    "hashtags": [
+      "#SocialListening",
+      "#CommentAnalysis",
+      "#BrandCrisis",
+      "#CustomerExperience",
+      "#Commento"
+    ],
+    "design_template": "D",
+    "design_headline": "3.5%",
+    "design_subhead": "That's how much of their comments brands actually responded to in 2025",
+    "design_icon_category": null,
+    "stat_number": "3.5",
+    "stat_unit": "%",
+    "stat_label": "Brands replied to just this share of all comments in 2025",
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_02_brands-respond-to-just-35-of-comments-th_templateD.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_02_brands-respond-to-just-35-of-comments-th_templateD.png"
+    ]
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "carousel",
+    "topic": "Her 5 yorumdan 1'i tehdit — ama hangisi? Yorum bölümünün 3 yüzü",
+    "caption": "Slide 1: Her 5 yorumdan 1'i spam, bot veya taciz içeriyor. Peki hangisi hangisi? | Slide 2: 🔴 Yüzey görünümü: 'Berbat ürün, asla almayın' → Negatif yorum gibi görünür. Gerçekte: Organize bir rakip saldırısı. | Slide 3: 🟡 Yüzey görünümü: 'Ne zaman gelir acaba?' → Sıradan soru gibi görünür. Gerçekte: 72 saat içinde churn riski taşıyan müşteri. | Slide 4: 🟢 Yüzey görünümü: 'Fiyat biraz yüksek ama düşünüyorum' → Pasif ilgi gibi görünür. Gerçekte: Satın alma niyeti yüksek, tek ihtiyacı doğru zamanlama. | Slide 5: Aynı yorum bölümü, 3 farklı sinyal. Commento sentiment, niyet ve aciliyet boyutlarını ayrı ayrı çıkarır — platforma göre değil, yorumun gerçek anlamına göre.",
+    "hashtags": [
+      "#YorumAnalizi",
+      "#Sentiment",
+      "#SosyalDinleme",
+      "#AIModerasyonu",
+      "#Commento"
+    ],
+    "design_template": "C",
+    "design_headline": "Yorum bölümünün 3 farklı yüzü",
+    "design_subhead": "Hangisinin hangisi olduğunu bilmeden moderasyon kör uçuştur",
+    "design_icon_category": "yorum_analizi",
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_03_her-5-yorumdan-1i-tehdit-ama-hangisi-yor_templateC.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_03_her-5-yorumdan-1i-tehdit-ama-hangisi-yor_templateC.png"
+    ]
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "carousel",
+    "topic": "1 in 5 comments is a threat — but which one? The 3 faces of a comment section",
+    "caption": "Slide 1: Research on 169 million comments found 1 in 5 contains spam, bot activity, or abuse. The harder question: which one is which? | Slide 2: 🔴 Surface: 'Worst product ever, avoid at all costs' → Looks like a negative review. Reality: Coordinated competitor attack. | Slide 3: 🟡 Surface: 'When will my order arrive?' → Looks like a routine question. Reality: A customer 72 hours from churning. | Slide 4: 🟢 Surface: 'Might be a bit expensive for me' → Looks like passive interest. Reality: High purchase intent — just needs the right nudge at the right moment. | Slide 5: Same comment section. Three completely different signals. Commento extracts sentiment, intent, and urgency as separate layers — based on what a comment actually means, not just what it looks like.",
+    "hashtags": [
+      "#CommentAnalysis",
+      "#Sentiment",
+      "#SocialListening",
+      "#AIModeration",
+      "#Commento"
+    ],
+    "design_template": "C",
+    "design_headline": "3 faces of a comment section",
+    "design_subhead": "Without knowing which is which, moderation is just guesswork",
+    "design_icon_category": "yorum_analizi",
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_04_1-in-5-comments-is-a-threat-but-which-on_templateC.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_04_1-in-5-comments-is-a-threat-but-which-on_templateC.png"
+    ]
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "text_post",
+    "topic": "Yorum bölümündeki toksisite artık AI arama sonuçlarını da etkiliyor",
+    "caption": "Yorum bölümünüzdeki kontrol edilmemiş negatif içerik artık sadece insan ziyaretçileri değil, AI arama motorlarını da etkiliyor.\n\nLLM'ler yorum bölümlerini eğitim verisi olarak kullanıyor. Modere edilmemiş bir yorum bölümü, markanız hakkında sorulan sorulara yanlış yanıtlar üretebilir.\n\nModerasyonu ertelemenin maliyeti artık iki katlı.",
+    "hashtags": [
+      "#AIModerasyonu",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "text_post",
+    "topic": "Unmoderated comment sections now shape AI search answers about your brand",
+    "caption": "Unmoderated toxicity in your comment section doesn't just damage your reputation with humans.\n\nLLMs draw on social comment data to inform their answers. If your comment section is full of unchecked negative content, AI tools may serve that narrative when someone searches your brand.\n\nThe cost of skipping moderation just doubled.",
+    "hashtags": [
+      "#AIModeration",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "thread",
+    "topic": "Bir rebrand krizi yorumlarda nasıl büyür ve nasıl yakalanır — adım adım",
+    "caption": "1/ Bu yıl bir marka logosunu değiştirdi. Birkaç saat içinde yorum bölümleri doldu. Haber bültenlerinde yer bulmadan önce kriz çoktan büyümüştü. Nasıl yakalanırdı? Adım adım. | 2/ Adım 1 — Hacim değil, hız değişimi. İlk sinyal yorum sayısı değildi. Belirli anahtar kelimelerin saatte kaç kez tekrarlandığıydı. 'Ruh', 'nostalji', 'kaybettik' kelimeleri organik büyümede normalde görülmez. | 3/ Adım 2 — Sentiment hızı. Negatif yorum oranı %12'den %67'ye 90 dakikada çıktı. Bunu manuel takiple görmek imkânsız. Sentiment trendini gerçek zamanlı izleyen bir sistem yakalamak zorunda. | 4/ Adım 3 — Niyet sinyali. 'Artık gitmiyorum' yorumları, şikayet gibi görünür. Ama bu, churn niyetidir. Commento bu ikisini birbirinden ayırır. Biri PR sorunudur, diğeri gelir kaybıdır. | 5/ Adım 4 — Platform farkı. Instagram'daki yorum tonu ile Twitter/X'teki farklıydı. İkisini aynı kefeye koymak tepkinin yanlış ölçülmesine yol açar. Multi-platform analiz zorunlu. | 6/ Sonuç: Kriz haber bültenine taşımadan önce yorum bölümünde 4 aşamadan geçer. Her aşamanın bir sinyali var. Commento bu sinyalleri erken yakalar.",
+    "hashtags": [
+      "#MarkaKrizi",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "thread",
+    "topic": "How a rebrand crisis grows in the comments — and how to catch it before headlines do",
+    "caption": "1/ This year, a brand changed its logo. Within hours, comment sections were flooded. The crisis was already in full swing before any news outlet picked it up. Here's how it could have been caught — step by step. | 2/ Step 1 — Velocity shift, not volume. The first signal wasn't the number of comments. It was the rate at which specific words were repeating per hour. 'Soul', 'generic', 'not the same' don't appear in organic growth patterns. | 3/ Step 2 — Sentiment speed. Negative comment ratio went from 12% to 67% in 90 minutes. Impossible to spot manually. Only a system tracking sentiment trend in real time catches that. | 4/ Step 3 — Intent signal. 'I'm never coming back' looks like a complaint. It's actually a churn signal. Commento separates the two. One is a PR problem. The other is a revenue problem. | 5/ Step 4 — Platform difference. The tone on Instagram was nostalgic. On X it was outrage. Treating them the same leads to a misread of how serious the crisis really is. Multi-platform analysis isn't optional. | 6/ The crisis moves through 4 stages in the comment section before it hits the press. Each stage has a signal. Commento catches them early.",
+    "hashtags": [
+      "#BrandCrisis",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "text_post",
+    "topic": "Build-in-public: Ajansların %88'i sosyal dinlemeyi kritik buluyor ama marka içinde bu oran neden bu kadar düşük?",
+    "caption": "Geçen hafta bir araştırma raporu okudum. Ajansların %88'i sosyal dinlemeyi iş başarısı için kritik buluyor. Marka içi profesyonellerde bu oran belirgin şekilde düşüyor.\n\nBu fark beni duraksattı.\n\nAjanslar müşteri adına çalışıyor — yani sonuç göstermeleri gerekiyor. Sosyal dinlemenin değerini görmek onlar için daha kolay çünkü etkiyi ölçmek zorundalar.\n\nMarka içinde ise sosyal dinleme çoğu zaman kimsenin tam olarak sahip çıkmadığı bir fonksiyon. Pazarlama mı? Sosyal medya ekibi mi? Müşteri deneyimi mi? Herkesin biraz ilgisi var, kimsenin tam sorumluluğu yok.\n\nCommento'yu geliştirirken fark ettiğim şey şu: Araç sorunu değil bu. Sahiplik sorunu.\n\nEn iyi sistemler bile sahibi olmayan bir fonksiyonu kurtaramıyor. Bunu çözmeden araç değiştirmek, aynı boşluğa farklı bir kapı koymak gibi.",
+    "hashtags": [
+      "#BuildInPublic",
+      "#SosyalDinleme",
+      "#SaaSFounder",
+      "#Commento",
+      "#MarkaStratejisi"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "text_post",
+    "topic": "Build-in-public: 88% of agencies call social listening critical — so why is it still an orphan function inside brands?",
+    "caption": "I read a stat last week that stuck with me: 88% of agencies say social listening is critical to business success. Among in-house brand teams, that number drops significantly.\n\nI kept thinking about why.\n\nAgencies have to show results. Social listening's value becomes visible when you're accountable to a client who's asking 'what did we learn this month?'\n\nInside brands, social listening often lives in the gap between teams. Marketing sort of owns it. Social media kind of owns it. Customer experience has opinions about it. Nobody fully owns it.\n\nBuilding Commento, I kept bumping into this. The problem was never the tool. It was the ownership gap.\n\nThe best system in the world can't save a function that nobody's fully responsible for. Fixing that before picking a tool matters more than most teams realize.",
+    "hashtags": [
+      "#BuildInPublic",
+      "#SocialListening",
+      "#SaaSFounder",
+      "#Commento",
+      "#BrandStrategy"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "text_post",
+    "topic": "Kısa gözlem: Sosyal dinleme olgunluğu şirket içinde neden hâlâ yerleşemiyor",
+    "caption": "Kısa gözlem:\n\nSosyal dinleme ajanslarda kritik, markalarda ise kimin sahip çıkacağı belirsiz.\n\nBu fark araçtan değil, sahiplik yapısından kaynaklanıyor.\n\nCommento geliştirirken fark ettiğim en tekrarlayan şey bu oldu.",
+    "hashtags": [
+      "#BuildInPublic",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "text_post",
+    "topic": "Short observation: social listening is mature at agencies, but orphaned inside brands",
+    "caption": "Quick observation:\n\nAgencies treat social listening as critical. Inside brands, nobody fully owns it.\n\nThat gap isn't a tool problem. It's an ownership problem.\n\nIt kept coming up every time I talked to a new customer while building Commento.",
+    "hashtags": [
+      "#BuildInPublic",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "visual_post",
+    "topic": "Yorum bölümünde kriz büyür — ama çoğu marka onu haber bülteninden öğrenir",
+    "caption": "Saat 14:23. Bir müşteri yorum yazıyor.\nSaat 14:51. Yirmi sekiz kişi daha aynı şeyi yazıyor.\nSaat 16:40. Sentiment çöküyor.\nSaat 09:00 (ertesi gün). Marka haberi görüyor.\n\nKriz, yorum bölümünde başlar. PR masasında biter.\n\nCommento kriz sinyalini saatler içinde değil, dakikalar içinde yakalar.",
+    "hashtags": [
+      "#YorumAnalizi",
+      "#MarkaKrizi",
+      "#SosyalMedya",
+      "#Commento",
+      "#SentimentAnalizi",
+      "#KrizYönetimi"
+    ],
+    "design_template": "B",
+    "design_headline": "Kriz yorumda başlar.",
+    "design_subhead": "Çoğu marka bunu haber bülteninden öğrenir.",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_13_yorum-bölümünde-kriz-büyür-ama-çoğu-mark_templateB.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_13_yorum-bölümünde-kriz-büyür-ama-çoğu-mark_templateB.png"
+    ]
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "visual_post",
+    "topic": "A crisis grows in the comments — most brands find out from a news alert",
+    "caption": "2:23 PM. One customer leaves a comment.\n2:51 PM. Twenty-eight more say the same thing.\n4:40 PM. Sentiment collapses.\n9:00 AM (next day). The brand finds out.\n\nA crisis starts in the comment section. It ends on the PR desk.\n\nCommento catches the signal in minutes — not the morning after.",
+    "hashtags": [
+      "#CommentAnalysis",
+      "#BrandCrisis",
+      "#SocialMedia",
+      "#Commento",
+      "#SentimentAnalysis",
+      "#CrisisManagement"
+    ],
+    "design_template": "B",
+    "design_headline": "Crisis starts in the comments.",
+    "design_subhead": "Most brands find out from a news alert.",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_14_a-crisis-grows-in-the-comments-most-bran_templateB.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-28_14_a-crisis-grows-in-the-comments-most-bran_templateB.png"
+    ]
+  }
+]
