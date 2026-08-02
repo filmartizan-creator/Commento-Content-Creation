@@ -1,0 +1,352 @@
+[
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "Kriz anında yanıt hızı itibarı belirliyor — yorumlar buradan başlar",
+    "caption": "Basın bülteni değil, yorum bölümü.\n\nHaziran 2026'da yayımlanan 2.250 kişilik bir araştırma şunu gösteriyor: tüketicilerin %84'ü, bir marka krizinde yanıt hızının o markaya bakışlarını doğrudan etkilediğini söylüyor. Ve krizden haberdar oldukları yer? Sosyal medya — haberleri ve markanın kendi açıklamalarını geçerek.\n\nYani saat 02:00'de birisi bir yorum yazıyor. Sabah 09:00'da ekip o yorumu görüyor. O 7 saat boyunca yorum, kopyalanıyor, ekran görüntüsü alınıyor, paylaşılıyor.\n\nCommento tam bu boşlukta çalışır: kriz sinyali içeren yorumları — kızgınlık, aciliyet, yükselen negatif sentiment — gerçek zamanlı olarak yüzeye çıkarır. Ekip uyumadan önce, iş büyümeden.\n\nYorumlar haberi beklemez. Sistemleriniz de beklememeli.",
+    "hashtags": [
+      "#KrizYönetimi",
+      "#SosyalMedya",
+      "#YorumAnalizi",
+      "#MarkaİtibarI",
+      "#SosyalDinleme",
+      "#Commento"
+    ],
+    "design_template": "D",
+    "design_headline": "Tüketicilerin %84'ü yanıt hızının kriz algısını belirlediğini söylüyor",
+    "design_subhead": "Peki yorumlar ne zaman izleniyor?",
+    "design_icon_category": null,
+    "stat_number": "84",
+    "stat_unit": "%",
+    "stat_label": "Yanıt hızı kriz algısını doğrudan etkiliyor",
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_01_kriz-anında-yanıt-hızı-itibarı-belirliyo_templateD.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_01_kriz-anında-yanıt-hızı-itibarı-belirliyo_templateD.png"
+    ]
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "Crisis response speed shapes reputation — it starts in the comments",
+    "caption": "Not a press release. A comment section.\n\nNew research from Q2 2026 — 2,250 consumers surveyed — shows that 84% say a brand's response speed directly shapes how they perceive a crisis. And where do they first hear about it? Social media. Not news articles. Not the brand's own statement.\n\nSo someone writes a comment at 2 AM. The team sees it at 9 AM. In those 7 hours, the comment gets screenshotted, quoted, amplified.\n\nCommento works exactly in this gap: surfacing comments that carry crisis signals — rising anger, urgency spikes, negative sentiment clustering — in real time. Before the team clocks in. Before it compounds.\n\nComments don't wait for the morning briefing. Your monitoring system shouldn't either.",
+    "hashtags": [
+      "#CrisisManagement",
+      "#SocialListening",
+      "#CommentAnalysis",
+      "#BrandReputation",
+      "#AIModeration",
+      "#Commento"
+    ],
+    "design_template": "D",
+    "design_headline": "84% of consumers say response speed shapes crisis perception",
+    "design_subhead": "And it all starts in the comment section",
+    "design_icon_category": null,
+    "stat_number": "84",
+    "stat_unit": "%",
+    "stat_label": "Response speed directly shapes crisis perception",
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_02_crisis-response-speed-shapes-reputation-_templateD.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_02_crisis-response-speed-shapes-reputation-_templateD.png"
+    ]
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Carousel/Doküman",
+    "topic": "Kriz yorumlarda doğar — markalar bunu 7 adımda yönetebilir",
+    "caption": "Slide 1: Kriz basın toplantısında değil, yorum bölümünde başlar. | Slide 2: 2026 araştırması: Tüketicilerin yarısı bir marka krizini ilk sosyal medyada öğreniyor — haberleri 2 kat geçerek. | Slide 3: Adım 1 — Sentiment izleme. Tek bir negatif yorum değil, kümelenen sinyal önemlidir. | Slide 4: Adım 2 — Aciliyet tespiti. 'Bu berbattı' ile 'Avukatımı arıyorum' aynı tonda görünmez — ama AI farkı yakalar. | Slide 5: Adım 3 — Platform ayrımı. Instagram öfkesi ile YouTube yorumu farklı dinamikler taşır; ikisini aynı görmek kör nokta yaratır. | Slide 6: Adım 4 — Yanıt penceresi. İlk 2 saat kritik: bu sürede yanıt veren markalar sentiment kurtarma sürecinde %61 daha iyi sonuç alıyor. | Slide 7: Adım 5 — Otomasyon eşiği. Her yoruma insan müdahalesi gerekmez — ama hangisine gerektiğini bilmek gerekir. | Slide 8: Commento bu 5 adımı tek bir panelde birleştirir. Kriz büyümeden, ekip görmeden.",
+    "hashtags": [
+      "#KrizYönetimi",
+      "#SosyalDinleme",
+      "#YorumAnalizi",
+      "#AIModerasyonu",
+      "#MarkaKrizi",
+      "#Commento"
+    ],
+    "design_template": "E",
+    "design_headline": "Bir yorum krize dönüşmeden önce: 5 sinyal katmanı",
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": "Sentiment kümelenmesi: Tek yorum değil, eğilim önemlidir",
+    "list_item_2": "Aciliyet farkı: AI, ton nüanslarını insan gözünden önce yakalar",
+    "list_item_3": "Yanıt penceresi: İlk 2 saat, sentiment kurtarmada %61 fark yaratır",
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_03_kriz-yorumlarda-doğar-markalar-bunu-7-ad_templateE.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_03_kriz-yorumlarda-doğar-markalar-bunu-7-ad_templateE.png"
+    ]
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Carousel/Doküman",
+    "topic": "A crisis is born in comments — 5 signal layers before it hits headlines",
+    "caption": "Slide 1: Crises don't start in newsrooms. They start in comment sections. | Slide 2: 2026 data: Half of consumers hear about brand crises on social media first — more than double the rate of news articles. | Slide 3: Layer 1 — Sentiment clustering. One angry comment is noise. Fifty in two hours is a signal. | Slide 4: Layer 2 — Urgency detection. 'This was disappointing' and 'I'm calling my lawyer' don't read the same — AI catches the difference in tone. | Slide 5: Layer 3 — Platform context. An angry Instagram comment and a YouTube thread carry different dynamics. Treating them the same creates blind spots. | Slide 6: Layer 4 — Response window. Brands that respond within 2 hours see 61% better sentiment recovery than slower responders. | Slide 7: Layer 5 — Automation threshold. Not every comment needs a human — but knowing which ones do is the entire game. | Slide 8: Commento maps all 5 layers, in real time, before the team's morning standup.",
+    "hashtags": [
+      "#CrisisManagement",
+      "#SocialListening",
+      "#CommentAnalysis",
+      "#BrandReputation",
+      "#AIModeration",
+      "#Commento"
+    ],
+    "design_template": "E",
+    "design_headline": "Before a comment becomes a crisis: 5 signal layers",
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": "Sentiment clustering: trends matter more than single comments",
+    "list_item_2": "Urgency detection: AI reads tone nuances before humans do",
+    "list_item_3": "Response window: 2 hours makes a 61% difference in recovery",
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_04_a-crisis-is-born-in-comments-5-signal-la_templateE.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_04_a-crisis-is-born-in-comments-5-signal-la_templateE.png"
+    ]
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "Krizler yorumlarda fısıldar, haberlerde bağırır — farkı yaratan sistemdir",
+    "caption": "Bir marka krizi nasıl büyür?\n\nYorum → ekran görüntüsü → quote tweet → haber.\n\n2026 araştırması: tüketicilerin %84'ü yanıt hızının kriz algısını belirlediğini söylüyor. Ama çoğu marka sinyali yorum aşamasında değil, haber aşamasında görüyor.\n\nCommento, kriz sinyalini — aciliyet, öfke kümelenmesi, platform çapında yayılma — yorumdan itibaren izler.\n\nHabere dönüşmeden.",
+    "hashtags": [
+      "#KrizYönetimi",
+      "#SosyalDinleme"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "Crises whisper in comments, roar in headlines — the gap is the system",
+    "caption": "How a brand crisis scales:\n\nComment → screenshot → quote tweet → news coverage.\n\n2026 research: 84% of consumers say response speed shapes their perception of a crisis. But most brands catch the signal at the news stage — not the comment stage.\n\nCommento tracks crisis signals — urgency spikes, anger clustering, cross-platform spread — from the comment. Not the headline.",
+    "hashtags": [
+      "#CrisisManagement",
+      "#SocialListening"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Thread",
+    "topic": "Sosyal medya kriz yönetiminde 'hızlı yanıt' neden artık yetmez — ve ne gerekiyor",
+    "caption": "1/ 'Hızlı yanıt ver' artık kriz yönetiminin tek cevabı değil. Strateji olmadan hız, krizi büyütür. İşte neden — ve ne gerekiyor. 🧵 | 2/ 2026 verisi: Yanıt hızı tüketicilerin %84'ü için kriz algısını belirliyor. Ama 2 saat içinde yanlış tonda yanıt vermek, %71'inin markayı terk etmesine yol açabiliyor. | 3/ Sorun şu: Çoğu ekip yorumun 'ne söylediğini' okurken 'ne hissettirdiğini' kaçırıyor. Sentiment farklı. Niyet farklı. Aciliyet farklı. | 4/ Bir yorum 'Bu ürün berbat' diyebilir — bu şikâyet. Bir yorum 'Bunu herkese anlatacağım' diyebilir — bu kriz sinyali. İkisi aynı panodan geçiyorsa sorun var. | 5/ Gerçek kriz yönetimi 3 katmana dayanır: (a) ne söyleniyor, (b) kim söylüyor ve nasıl hissediyor, (c) bu sinyal hangi platformda ne hızla yayılıyor. | 6/ Commento bu 3 katmanı birleştirir. Yorum geldiğinde — kriz mi, şikâyet mi, gürültü mü — ekip yanıt vermeden önce biliyor. | 7/ Kriz iletişiminde kazanan markalar en hızlı değil. En net, en koordineli, en güvenilir olanlar. Sistem bunu mümkün kılar.",
+    "hashtags": [
+      "#KrizYönetimi",
+      "#SosyalMedya",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Thread",
+    "topic": "Why 'respond fast' is no longer enough in social media crisis management",
+    "caption": "1/ 'Respond fast' is not the full answer to crisis management anymore. Speed without strategy makes things worse. Here's what actually matters. 🧵 | 2/ 2026 data: 84% of consumers say response speed shapes crisis perception. But 71% abandon brands that deflect blame — fast or not. Speed without the right message is a liability. | 3/ The real problem: most teams read what a comment says. They miss what it signals. Sentiment is different. Intent is different. Urgency is different. | 4/ 'This product is terrible' = a complaint. 'I'm going to make sure everyone knows about this' = a crisis signal. If both go through the same moderation queue, something's broken. | 5/ Effective crisis management runs on 3 layers: (a) what's being said, (b) how the commenter feels and what they intend, (c) how fast this signal is spreading and where. | 6/ Commento connects all 3. By the time the team responds, they already know: crisis, complaint, or noise. | 7/ The brands that survive aren't the fastest. They're the clearest, most coordinated, most credible. That takes a system — not just speed.",
+    "hashtags": [
+      "#CrisisManagement",
+      "#SocialMedia",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Build-in-public: Markalar krizden 2 saat sonra yanıt veriyor — ama o 2 saatin başlangıcı nerede?",
+    "caption": "Bu hafta bir potansiyel müşteriyle konuşurken garip bir şey fark ettim.\n\nKendileri için '2 saat içinde yanıt veriyoruz, kriz protokolümüz var' dediler. Ben de sordum: 'Peki o 2 saat ne zaman başlıyor?'\n\nSessizlik.\n\n2026 araştırması: 2 saat içinde yanıt veren markalar sentiment kurtarmada %61 daha iyi sonuç alıyor. Bu çok güçlü bir veri. Ama o saat, yorumu gördükleri anda başlıyor — yoksa yorumun yazıldığı anda değil.\n\nPek çok ekipte bu fark 4-6 saat. Bazen gece boyunca.\n\nCommento'yu geliştirirken fark ettiğim şu: kriz yönetiminin en kırılgan noktası protokol değil, tespit penceresi. Ekipler haberdar olmadan reaksiyon gösteremiyor.\n\nYanıt hızını iyileştirmenin en etkili yolu daha hızlı yanıt yazmak değil — sinyali daha erken yakalamak.",
+    "hashtags": [
+      "#BuildInPublic",
+      "#KrizYönetimi",
+      "#SosyalDinleme",
+      "#Commento",
+      "#SaaSFounder",
+      "#YorumAnalizi"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Build-in-public: Brands say '2-hour response window' — but when does the clock actually start?",
+    "caption": "Had a conversation with a prospect this week that stuck with me.\n\nThey said, 'We have a crisis protocol — we respond within 2 hours.' So I asked: 'When does that 2 hours start?'\n\nLong pause.\n\n2026 research shows brands that respond to crises within 2 hours see 61% better sentiment recovery. That's a powerful stat. But that clock starts when the team sees the comment — not when the comment is written.\n\nIn most teams, that gap is 4 to 6 hours. Sometimes an entire night.\n\nBuilding Commento taught me this: the most fragile point in crisis management isn't the protocol. It's the detection window. Teams can't react to what they haven't seen yet.\n\nThe most effective way to improve response time isn't writing faster replies. It's catching the signal earlier.",
+    "hashtags": [
+      "#BuildInPublic",
+      "#CrisisManagement",
+      "#SocialListening",
+      "#Commento",
+      "#SaaSFounder",
+      "#CommentAnalysis"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Kısa gözlem: Kriz protokolü var — ama saat yanlış yerden başlıyor",
+    "caption": "Kısa gözlem:\n\n'2 saatte yanıt veriyoruz' diyen markalar çok.\n\nPeki o 2 saat ne zaman başlıyor? Yorum yazıldığında mı, yoksa ekip gördüğünde mi?\n\nÇoğu zaman bu fark 5-6 saat. Bazen bir gece.\n\n%61 daha iyi sentiment kurtarma 2 saatte yanıtlayanların payı — ama sayaç gerçekten ne zaman başlıyor biliyor musunuz?",
+    "hashtags": [
+      "#SosyalMedya",
+      "#KrizYönetimi"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Short observation: brands have a 2-hour protocol — but the clock starts in the wrong place",
+    "caption": "Short observation:\n\nLots of brands say 'we respond within 2 hours.'\n\nBut when does that 2 hours start? When the comment is posted — or when someone on the team actually sees it?\n\nFor most teams, that gap is 5-6 hours. Sometimes a full night.\n\nThe 61% better sentiment recovery stat belongs to brands that respond within 2 hours. The clock just usually starts too late.",
+    "hashtags": [
+      "#SocialMedia",
+      "#CrisisManagement"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "Görsel Post",
+    "topic": "Tüketicilerin yarısı bir marka krizini ilk sosyal medyada öğreniyor — yorumlar ihbar hattıdır",
+    "caption": "Yorum bölümü bir geri bildirim kutusu değil.\n\nTüketicilerin yarısı bir marka krizini ilk sosyal medyada öğreniyor. Haberleri, markanın kendi açıklamasını, herkesi geçerek.\n\nO zaman asıl soru şu: Yorumlarınız size ne söylerken siz ne yapıyorsunuz?\n\nCommento, yorumların içindeki sinyali — krizden önce — yüzeye çıkarır.\n\n#KrizYönetimi #SosyalMedya #MarkaİtibarI #YorumAnalizi #Commento",
+    "hashtags": [
+      "#KrizYönetimi",
+      "#SosyalMedya",
+      "#MarkaİtibarI",
+      "#YorumAnalizi",
+      "#Commento"
+    ],
+    "design_template": "B",
+    "design_headline": "Kriz sosyal medyada başlar",
+    "design_subhead": "Yorumlarınız size söylüyor — siz dinliyor musunuz?",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_13_tüketicilerin-yarısı-bir-marka-krizini-i_templateB.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_13_tüketicilerin-yarısı-bir-marka-krizini-i_templateB.png"
+    ]
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "Görsel Post",
+    "topic": "Half of consumers hear about a brand crisis on social first — comments are the early warning system",
+    "caption": "The comment section isn't a feedback box.\n\nHalf of consumers hear about a brand crisis on social media first — before news, before the brand's own statement, before anyone else.\n\nSo the real question is: what are your comments telling you while you're not looking?\n\nCommento surfaces the signal inside your comments — before it becomes the story.\n\n#CrisisManagement #SocialMedia #BrandReputation #CommentAnalysis #Commento",
+    "hashtags": [
+      "#CrisisManagement",
+      "#SocialMedia",
+      "#BrandReputation",
+      "#CommentAnalysis",
+      "#Commento"
+    ],
+    "design_template": "B",
+    "design_headline": "Brand crises start on social",
+    "design_subhead": "Your comments are already talking. Are you listening?",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_14_half-of-consumers-hear-about-a-brand-cri_templateB.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-31_14_half-of-consumers-hear-about-a-brand-cri_templateB.png"
+    ]
+  }
+]
