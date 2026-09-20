@@ -1,0 +1,341 @@
+[
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "Yorumlarınızın %40'ı bot — ama asıl kriz geriye kalan %60'ta saklı",
+    "caption": "Bir rapor var, bu yıl yayımlandı.\n\n169 milyon yorum analiz edilmiş. Bulgu şu: markaların aktif olarak gizlediği yorumların %40'ından fazlası spam veya bot hesaplarından geliyor.\n\nAma asıl sorun bu değil.\n\nAsıl sorun şu: geri kalan yorumlar — gerçek insanlardan gelenler — çoğunlukla okunmuyor, sınıflandırılmıyor, önceliklendirilmiyor.\n\nBir müşteri şikâyet yazıyor. Bir başkası iptal niyetiyle yorum bırakıyor. Üçüncüsü sessizce rakibinizin adını etiketliyor.\n\nHepsi aynı sırada bekliyor. Botu temizlerken kriz büyüyor.\n\nCommento'nun yaptığı şey basit: gerçek yorumları sentiment, niyet ve aciliyet katmanlarına göre ayırır. Ekibiniz bot avcılığı yapmak yerine, yanıtlanması gereken yoruma odaklanır.\n\nYorum bölümünüzde bugün kaç tane 'sessiz kriz' var?",
+    "hashtags": [
+      "#SosyalDinleme",
+      "#YorumAnalizi",
+      "#KrizYönetimi",
+      "#MüşteriDeneyimi",
+      "#Commento",
+      "#SosyalMedya"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "40% of moderated comments are bots — the real crisis hides in the other 60%",
+    "caption": "A report published this year analyzed 169 million comments.\n\nThe finding: over 40% of comments brands actively moderate come from spam or bot accounts.\n\nBut that's not the actual problem.\n\nThe real problem is what happens to the rest — comments from real people that go unread, uncategorized, and unprioritized.\n\nA customer writes a complaint. Another leaves a comment signaling cancellation intent. A third quietly tags your competitor.\n\nAll waiting in the same queue. While you're hunting bots, a crisis is growing.\n\nWhat Commento does is straightforward: it separates genuine comments into sentiment, intent, and urgency layers — so your team stops playing bot whack-a-mole and focuses on the comment that actually needs a response.\n\nHow many silent crises are sitting in your comment section right now?",
+    "hashtags": [
+      "#SocialListening",
+      "#CommentAnalysis",
+      "#CrisisManagement",
+      "#CustomerExperience",
+      "#Commento",
+      "#SocialMedia"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Carousel/Doküman",
+    "topic": "Yorum bölümünüzde kriz sinyalini 5 adımda nasıl okursunuz",
+    "caption": "Slide 1: Yorum bölümünüz size bir şey söylüyor. Çoğu marka duymadan geçiyor. | Slide 2: Adım 1 — Sentiment'i filtreleyin. 'Kötü yorum' tek kategori değil. Hayal kırıklığı, öfke ve iptal niyeti birbirinden farklı sinyallerdir. | Slide 3: Adım 2 — Aciliyeti ayırt edin. 'Ürününüz berbat' ile 'avukatıma danışacağım' aynı öncelikte değerlendirilemez. Sistem önceliklendirmeli, insan karar vermeli. | Slide 4: Adım 3 — Niyet sinyaline bakın. Bir yorum şikâyet mi, iptal bildirimi mi, yoksa rakip araştırması mı? Bu üçü farklı yanıt protokolü gerektirir. | Slide 5: Adım 4 — Çapraz platform örüntüsünü takip edin. Aynı şikâyet Instagram'da başlayıp YouTube'da büyüyebilir. İzole analiz, kör noktayı büyütür. | Slide 6: Adım 5 — Erken sinyal eşiği belirleyin. Kriz patlamadan önce bir spike var. O spike'ı yakalamak için eşiğin önceden tanımlı olması gerekir. | Slide 7: Bu 5 adımın tamamını otomatikleştirmek istiyorsanız, Commento'yu inceleyin. Yorumlarınız çok daha fazlasını söylüyor — dinlemeye hazır mısınız?",
+    "hashtags": [
+      "#SosyalDinleme",
+      "#KrizYönetimi",
+      "#YorumAnalizi",
+      "#Commento",
+      "#MüşteriDeneyimi",
+      "#SosyalMedyaStratejisi"
+    ],
+    "design_template": "E",
+    "design_headline": "Yorum bölümünüzde kriz sinyalini okumak için 5 adım",
+    "design_subhead": "Commento ile yorumlarınızı sentiment, niyet ve aciliyet katmanlarına göre analiz edin",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": "Sentiment'i filtreleyin: hayal kırıklığı, öfke ve iptal niyeti farklı sinyallerdir",
+    "list_item_2": "Aciliyeti ayırt edin: sistem önceliklendirmeli, insan karar vermeli",
+    "list_item_3": "Çapraz platform örüntüsünü takip edin: izole analiz kör noktayı büyütür",
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-38_03_yorum-bölümünüzde-kriz-sinyalini-5-adımd_templateE.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-38_03_yorum-bölümünüzde-kriz-sinyalini-5-adımd_templateE.png"
+    ]
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Carousel/Doküman",
+    "topic": "5 steps to reading crisis signals in your comment section",
+    "caption": "Slide 1: Your comment section is telling you something. Most brands scroll past it. | Slide 2: Step 1 — Filter sentiment. 'Negative comment' isn't one category. Disappointment, anger, and cancellation intent are three completely different signals. | Slide 3: Step 2 — Distinguish urgency. 'Your product is terrible' and 'I'm calling my lawyer' cannot sit in the same queue. The system should prioritize — humans should decide. | Slide 4: Step 3 — Read intent signals. Is the comment a complaint, a cancellation notice, or a competitor comparison? Each requires a different response protocol. | Slide 5: Step 4 — Track cross-platform patterns. The same complaint can start on Instagram and escalate on YouTube. Siloed analysis makes blind spots bigger. | Slide 6: Step 5 — Set early-signal thresholds. Before a crisis explodes, there's a spike. Catching that spike requires a pre-defined threshold — not a post-mortem. | Slide 7: If you want to automate all five steps, explore Commento. Your comments are saying a lot more than you think.",
+    "hashtags": [
+      "#SocialListening",
+      "#CrisisManagement",
+      "#CommentAnalysis",
+      "#Commento",
+      "#CustomerExperience",
+      "#SocialMediaStrategy"
+    ],
+    "design_template": "E",
+    "design_headline": "5 steps to reading crisis signals in your comment section",
+    "design_subhead": "Analyze your comments by sentiment, intent, and urgency with Commento",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": "Filter sentiment: disappointment, anger, and cancellation intent are different signals",
+    "list_item_2": "Distinguish urgency: the system prioritizes, humans decide",
+    "list_item_3": "Track cross-platform patterns: siloed analysis grows blind spots",
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-38_04_5-steps-to-reading-crisis-signals-in-you_templateE.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-38_04_5-steps-to-reading-crisis-signals-in-you_templateE.png"
+    ]
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "Yanıt süresi beklentisini karşılayan marka oranı",
+    "caption": "Şirketlerin yalnızca %37'si sosyal medyada yanıt süresi beklentisini karşılıyor.\n\nGeri kalan %63, müşterilerinin beklediğinden daha yavaş yanıt veriyor.\n\nBu bir iletişim problemi değil.\n\nSinyali zamanında görememe problemi.\n\nYorum bölümü veriyi üretiyor. Ekip onu görmeden kriz büyüyor.\n\nCommento, acil yorumu önce yüzeye çıkarır.",
+    "hashtags": [
+      "#SosyalMedya",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "Only 37% of brands meet response time expectations",
+    "caption": "Only 37% of brands actually meet social media response time expectations.\n\nThe other 63% are slower than their customers expect.\n\nThat's not a communication problem.\n\nIt's a signal detection problem.\n\nThe comment section generates the data. The team never sees it in time.\n\nCommento surfaces the urgent comment first.",
+    "hashtags": [
+      "#SocialMedia",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Thread",
+    "topic": "Bir yorum bölümü nasıl kriz üretir — ve her aşamada ne yapılabilir",
+    "caption": "1/ Bu yıl bir teknoloji şirketinin yorum bölümünü izledim. Küçük bir güncelleme, 30 dakikada negatif sentiment spike'ı yarattı. Ekip bunu 4 saat sonra fark etti. Şöyle büyür: | 2/ Aşama 1 — Tek bir şikâyet. Platforma özgü, düşük görünürlüklü. Moderasyon kuyruğunda bekliyor. Ekip görmüyor çünkü 47 başka yorum var önünde. | 3/ Aşama 2 — Benzer şikâyetler çoğalıyor. Hâlâ her biri izole. Ama örüntü oluştu. Bunu ancak çapraz bakış görür — bireysel yorum takibi görmez. | 4/ Aşama 3 — Biri ekran görüntüsü alıyor. Artık platformun dışına çıktı. Bu noktadan itibaren moderasyon değil, kriz iletişimi gerekiyor. | 5/ Aşama 4 — Haber bülteni. Marka açıklaması yapıyor. Ama açıklamanın tonu yorum bölümündeki duygusal yoğunlukla eşleşmiyor — güven daha da eriyor. | 6/ Fark yaratan şey: erken aşamada örüntüyü görmek. Sentiment spike'ını, niyet sinyalini, aciliyet katmanını. Yorum bölümü tüm bunları üretiyor — ama okunması lazım. | 7/ Commento tam da bu noktada çalışıyor. Yorumları tek tek değil, sinyal olarak okuyor. Kriz ekran görüntüsüne ulaşmadan önce.",
+    "hashtags": [
+      "#KrizYönetimi",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Thread",
+    "topic": "How a comment section manufactures a crisis — and what can be done at each stage",
+    "caption": "1/ This year I watched a tech company's comment section in real time. A minor product update created a negative sentiment spike in 30 minutes. The team noticed 4 hours later. Here's how it grows: | 2/ Stage 1 — A single complaint. Platform-specific, low visibility. Sitting in the moderation queue behind 47 other comments. No one sees it. | 3/ Stage 2 — Similar complaints multiply. Still isolated from each other. But a pattern has formed. Only cross-platform analysis catches it — individual comment tracking doesn't. | 4/ Stage 3 — Someone takes a screenshot. Now it's outside the platform. From this point, you don't need moderation. You need crisis comms. | 5/ Stage 4 — News coverage. Brand issues a statement. But the tone doesn't match the emotional intensity of the comment section — and trust erodes further. | 6/ What makes the difference: seeing the pattern early. The sentiment spike. The intent signal. The urgency layer. The comment section generates all of this — it just needs to be read. | 7/ That's exactly where Commento works. It reads comments as signals, not as individual pieces of text. Before the crisis reaches a screenshot.",
+    "hashtags": [
+      "#CrisisManagement",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Build-in-public: Müşterilerle konuşurken fark ettim — 'moderasyon' dedikleri şeyin içinde kaybolmuş bir sinyal var",
+    "caption": "Bu hafta bir marka yöneticisiyle konuşuyordum.\n\n'Yorumları zaten takip ediyoruz' dedi. 'Moderasyon aracımız var.'\n\nSordum: 'Son 30 günde bir yorum sizi şaşırttı mı? Beklemediğiniz bir şikâyet, farklı bir niyet sinyali?'\n\nSessizlik.\n\nSonra: 'Aslında geçen ay bir şey vardı. Ama o hafta çok yoğunduk, üstünden geçemedik.'\n\nBu cümleyi artık çok sık duyuyorum.\n\nModerasyon araçları spam'i temizliyor. Kötü yorumu gizliyor. Bunu iyi yapıyorlar.\n\nAma yorum bölümünde saklı olan asıl veriyi — sentiment örüntüsünü, niyet sinyalini, aciliyet katmanını — kimse sistematik olarak okumak için kurulmamış.\n\nCommento'yu tam da bu boşluk için kuruyoruz.\n\n'O hafta çok yoğunduk' hiç bir kriz özrü olmasın diye.",
+    "hashtags": [
+      "#BuildInPublic",
+      "#SosyalDinleme",
+      "#Commento",
+      "#KurucuNotları",
+      "#YorumAnalizi",
+      "#StartupTürkiye"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Build-in-public: What I keep hearing from brand managers — and the signal hiding inside 'we have a moderation tool'",
+    "caption": "I was talking to a brand manager this week.\n\n'We already track comments,' she said. 'We have a moderation tool.'\n\nI asked: 'In the last 30 days, did any comment surprise you? An unexpected complaint, an unusual intent signal?'\n\nSilence.\n\nThen: 'Actually, there was something last month. But we were slammed that week and never got to it.'\n\nI hear this constantly now.\n\nModeration tools clean spam. They hide bad comments. They do that well.\n\nBut the actual data hiding in the comment section — sentiment patterns, intent signals, urgency layers — no one has built a systematic way to read it.\n\nThat gap is exactly why we're building Commento.\n\nSo 'we were too busy that week' never becomes a crisis post-mortem.",
+    "hashtags": [
+      "#BuildInPublic",
+      "#SocialListening",
+      "#Commento",
+      "#FounderNotes",
+      "#CommentAnalysis",
+      "#B2BSaaS"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Kısa gözlem: %78,5 ekip çok platform kullanıyor ama entegrasyon hâlâ çözülmemiş",
+    "caption": "Kısa gözlem:\n\nSosyal dinleme ekiplerinin %78,5'i birden fazla araç kullanıyor.\n\nYani veri birden fazla yerden geliyor.\n\nAma yorumlar hâlâ platform platform, araç araç izole okunuyor.\n\nÇapraz platform örüntüsünü görmek için veriyi bir araya getiren değil, yorumları bir arada okuyabilen bir katman gerekiyor.\n\nBu farkı kapatmaya çalışıyoruz.",
+    "hashtags": [
+      "#Commento",
+      "#BuildInPublic"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Short observation: 78.5% use multiple tools but cross-platform comment reading is still broken",
+    "caption": "Quick observation:\n\n78.5% of social listening teams use more than one tool.\n\nSo the data is coming from multiple places.\n\nBut comments are still being read platform by platform, tool by tool, in isolation.\n\nSeeing cross-platform patterns doesn't require aggregating more data.\n\nIt requires a layer that reads comments together — not separately.\n\nThat's the gap we're closing.",
+    "hashtags": [
+      "#Commento",
+      "#BuildInPublic"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "Görsel Post",
+    "topic": "Yorumlarınızdaki %47 gerçeği — ve markanın sorumluluğu",
+    "caption": "Araştırmacılar bu yıl 169 milyon yorumu analiz etti.\n\nBulgu sert: tüketicilerin %47'si, kendi gönderilerindeki toksik yorumlar için markayı sorumlu tutuyor.\n\nYorum bölümünüz sizin alanınız.\n\nOrada ne olduğu sizin sorumluluğunuz.\n\nCommento, yorum bölümünüzü otomatik olarak izler — sentiment analizi, kriz sinyali ve AI moderasyonuyla.\n\nYorum bölümünüz sizi temsil ediyor. Sahip çıkın.",
+    "hashtags": [
+      "#SosyalMedya",
+      "#YorumYönetimi",
+      "#Commento",
+      "#KrizYönetimi",
+      "#MüşteriDeneyimi"
+    ],
+    "design_template": "D",
+    "design_headline": "%47",
+    "design_subhead": "Tüketiciler, kendi gönderilerindeki toksik yorumlar için markayı sorumlu tutuyor",
+    "design_icon_category": null,
+    "stat_number": "47",
+    "stat_unit": "%",
+    "stat_label": "Tüketiciler toksik yorumlar için markayı sorumlu tutuyor",
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-38_13_yorumlarınızdaki-47-gerçeği-ve-markanın-_templateD.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-38_13_yorumlarınızdaki-47-gerçeği-ve-markanın-_templateD.png"
+    ]
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "Görsel Post",
+    "topic": "The 47% truth about your comment section",
+    "caption": "Researchers analyzed 169 million comments this year.\n\nThe finding is stark: 47% of consumers hold the brand responsible for toxic or spammy comments on its own posts.\n\nYour comment section is your space.\n\nWhat happens there is your responsibility.\n\nCommento monitors your comment section automatically — with sentiment analysis, crisis signals, and AI moderation.\n\nYour comments represent your brand. Own them.",
+    "hashtags": [
+      "#SocialMedia",
+      "#CommentModeration",
+      "#Commento",
+      "#CrisisManagement"
+    ],
+    "design_template": "D",
+    "design_headline": "47%",
+    "design_subhead": "of consumers hold brands responsible for toxic comments on their own posts",
+    "design_icon_category": null,
+    "stat_number": "47",
+    "stat_unit": "%",
+    "stat_label": "Consumers blame brands for toxic comments on their own posts",
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-38_14_the-47-truth-about-your-comment-section_templateD.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-38_14_the-47-truth-about-your-comment-section_templateD.png"
+    ]
+  }
+]
