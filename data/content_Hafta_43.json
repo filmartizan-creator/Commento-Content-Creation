@@ -1,0 +1,342 @@
+[
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "text_post",
+    "topic": "Tüketicilerin %94'ü AI sosyal dinleme kullanıyor — ama yalnızca %3'ü sonuçlara tam güveniyor",
+    "caption": "Sosyal dinleme araçlarına güvenen ekip sayısı çok az — bunu bir şekilde çözmek gerekiyor.\n\nBu yıl yayımlanan SILab verisine göre: ekiplerin %94'ü AI tabanlı sosyal dinleme kullanıyor. Ama aynı ekiplerin yalnızca %3'ü AI'nın çıkardığı içgörülere tam olarak güveniyor.\n\nBu bir araç sorunu değil.\n\nBir okuma sorunu.\n\nEkipler sistemi çalıştırıyor, ama ekranlarına baktıklarında 'bu yorumun arkasında gerçekten ne var?' sorusunu hâlâ kendileri yanıtlamak zorunda hissediyor. Çünkü çoğu araç veriyi gösteriyor — yorumu anlamıyor.\n\nSentiment skoru 'negatif' diyor. Ama bu yorum bir şikâyet mi, bir tehdit mi, yoksa bir müşterinin son çığlığı mı?\n\nFark önemli. Çünkü bu üçüne verilecek yanıt birbirinden tamamen farklı.\n\nCommento'yu tasarlarken en çok üzerinde durduğumuz soru bu oldu: Ekibe güven veren şey ham veri değil, yorumun ne anlama geldiğini söyleyen bir sistem.\n\nSadece analiz değil — niyet, aciliyet, bağlam.",
+    "hashtags": [
+      "#SosyalDinleme",
+      "#YorumAnalizi",
+      "#SentimentAnalizi",
+      "#KrizYönetimi",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "text_post",
+    "topic": "94% use AI social listening — only 3% fully trust the insights",
+    "caption": "Most teams run the tool. Almost none trust what it tells them.\n\nThe SILab's State of Social Listening report found that 94% of social listening professionals use AI-powered tools. Yet only 3% say they fully trust the AI-generated insights.\n\nThat's not an adoption problem. That's a comprehension problem.\n\nThe dashboard shows a sentiment score. It says 'negative.' But the team still asks: is this a complaint, a warning sign, or someone about to escalate publicly?\n\nThree very different situations. Three completely different responses needed.\n\nMost tools surface the volume. They don't decode the intent.\n\nThat's the gap Commento was built to close — not just analyzing comments, but reading what they actually mean: sentiment, intent, urgency, context. In the same place, across every platform.\n\nWhen teams understand what a comment is really saying, they stop second-guessing the data and start acting on it.",
+    "hashtags": [
+      "#SocialListening",
+      "#CommentAnalysis",
+      "#SentimentAnalysis",
+      "#CrisisManagement",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "carousel",
+    "topic": "Bir yorumu doğru okumak için bakmanız gereken 3 katman — ve çoğu markanın gördüğü sadece 1'i",
+    "caption": "Slide 1: Bir yorum gördüğünüzde ne okuyorsunuz? | Slide 2: Katman 1 — Sentiment. 'Negatif' mi, 'pozitif' mi? Çoğu araç burada duruyor. Ama bu sadece yüzey. | Slide 3: Katman 2 — Niyet. Bu yorum bir şikâyet mi? Bir soru mu? Bir tehdit mi? Yoksa markayı savunmak için yazılmış bir yorum mu? Aynı kelimeler, çok farklı anlamlar taşıyabilir. | Slide 4: Katman 3 — Aciliyet. Bu yorum şu an mı yanıt istiyor? Yoksa 6 saat sonra mı? Kriz sinyallerinin çoğu burada gizlenir — çünkü aciliyeti okumayan ekipler her şeyi eşit öncelikte görür. | Slide 5: Sosyal dinleme ekiplerinin %94'ü AI araç kullanıyor. Ama yalnızca %3'ü sonuçlara tam güveniyor. Neden? Çünkü araçlar 1. katmanı gösteriyor. 2. ve 3. katmanı değil. | Slide 6: Commento 3 katmanı birden analiz eder — sentiment, niyet, aciliyet. Ve bunu tüm platformlarda tek ekranda yapar.",
+    "hashtags": [
+      "#SosyalDinleme",
+      "#YorumAnalizi",
+      "#KrizSinyali",
+      "#Commento",
+      "#SentimentAnalizi",
+      "#Moderasyon"
+    ],
+    "design_template": "E",
+    "design_headline": "Bir yorumun 3 katmanı",
+    "design_subhead": "Çoğu araç sadece birini görüyor",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": "Katman 1 — Sentiment: pozitif mi, negatif mi?",
+    "list_item_2": "Katman 2 — Niyet: şikâyet mi, tehdit mi, savunma mı?",
+    "list_item_3": "Katman 3 — Aciliyet: şimdi mi, 6 saat sonra mı?",
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-43_03_bir-yorumu-doğru-okumak-için-bakmanız-ge_templateE.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-43_03_bir-yorumu-doğru-okumak-için-bakmanız-ge_templateE.png"
+    ]
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "carousel",
+    "topic": "3 layers in every comment — most tools only show you one",
+    "caption": "Slide 1: When you read a comment, what are you actually reading? | Slide 2: Layer 1 — Sentiment. Positive or negative? Most tools stop here. It's a starting point, not an answer. | Slide 3: Layer 2 — Intent. Is this a complaint? A question? A threat? Someone defending your brand in public? The same words carry completely different meanings depending on intent. | Slide 4: Layer 3 — Urgency. Does this comment need a response right now — or can it wait? Most crisis signals hide here. Teams that can't read urgency treat everything as equal priority — which means the real fires go unnoticed. | Slide 5: 94% of social listening teams use AI tools. Only 3% fully trust the insights. Because the tools show Layer 1. Not Layers 2 and 3. | Slide 6: Commento reads all three layers — sentiment, intent, urgency — across every platform, in one place. That's what turns comment data into something teams can actually act on.",
+    "hashtags": [
+      "#SocialListening",
+      "#CommentAnalysis",
+      "#CrisisSignals",
+      "#Commento",
+      "#SentimentAnalysis",
+      "#AIModeration"
+    ],
+    "design_template": "E",
+    "design_headline": "3 layers every comment carries",
+    "design_subhead": "Most tools only surface the first one",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": "Layer 1 — Sentiment: positive or negative?",
+    "list_item_2": "Layer 2 — Intent: complaint, threat, or brand defense?",
+    "list_item_3": "Layer 3 — Urgency: respond now or in 6 hours?",
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-43_04_3-layers-in-every-comment-most-tools-onl_templateE.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-43_04_3-layers-in-every-comment-most-tools-onl_templateE.png"
+    ]
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "text_post",
+    "topic": "Kriz yanıt hızı ve yorum sinyali — %84 istatistiği ile farklı açı",
+    "caption": "Tüketicilerin %84'ü yanıt hızını kriz algısıyla doğrudan bağlantılı görüyor (Sprout Social, 2026).\n\nAma saat nerede başlıyor?\n\nMüşteri yorumu yazdığında.\nSen bunu gördüğünde değil.\n\nBu fark — bazen saatler, bazen günler.\n\nSistem yoksa saat hep geri sayıyor.",
+    "hashtags": [
+      "#KrizYönetimi",
+      "#SosyalDinleme"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "text_post",
+    "topic": "Crisis response speed and comment signals — 84% stat with a different angle",
+    "caption": "84% of consumers say how fast a brand responds to a crisis shapes how they perceive it. (Sprout Social, 2026)\n\nBut the clock starts when the comment is posted.\nNot when someone on your team sees it.\n\nThat gap — sometimes hours, sometimes days — is where reputations are decided.\n\nNo system means the clock is always running against you.",
+    "hashtags": [
+      "#CrisisManagement",
+      "#SocialListening"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "thread",
+    "topic": "Bu yıl bir teknoloji şirketinin viral kriz anında yorum bölümünde ne oldu — ve her aşamada ne yapılabilirdi",
+    "caption": "1/ Bu yıl bir teknoloji şirketinin CEO'suyla ilgili bir olay sosyal medyada viral oldu. Şirket 6 saat boyunca sessiz kaldı. Yorum bölümü o 6 saatte kendi hikâyesini yazdı. | 2/ İlk 30 dakika: birkaç yorum, merak tonu. Herkes bilgi arıyor. Marka sessiz. Bu aşamada tek bir doğru yanıt krizin seyrini değiştirebilirdi. | 3/ 1-2. saat: yorum tonu değişti. Meraktan öfkeye döndü. Kullanıcılar birbirini besliyor. Marka hâlâ sessiz. Artık sadece içerik değil, sessizlik de mesaj haline geldi. | 4/ 3-6. saat: medya yorum bölümünü kaynak olarak kullandı. Haberlerde 'kullanıcılar şöyle tepki gösterdi' yazıldı. Yorum bölümü artık krizin belgesi olmuştu. | 5/ 6. saat sonunda gelen açıklama savunmacıydı. Sprout Social 2026 verisine göre bu tür gecikmeli ve savunmacı yanıtlar kriz algısını daha da derinleştiriyor. | 6/ Fark yaratan şey ne olurdu? İlk 30 dakikada sinyal okumak. Aciliyet seviyesini anlamak. Ve 'bu bir kriz mi, gürültü mü?' sorusunu insana değil, sisteme sormak.",
+    "hashtags": [
+      "#KrizYönetimi",
+      "#SosyalDinleme"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "thread",
+    "topic": "How a tech company's viral CEO crisis played out in the comment section — and what could have been done at each stage",
+    "caption": "1/ This year, a tech company's CEO became the center of a viral moment. The brand stayed silent for 6 hours. The comment section wrote its own story in that time. | 2/ First 30 minutes: a few comments, mostly curiosity. People looking for context. Brand silent. One grounded response here could have changed everything. | 3/ Hours 1–2: tone shifted. Curiosity became anger. Users started amplifying each other. Silence stopped being neutral — it became a message of its own. | 4/ Hours 3–6: journalists used the comment section as a source. 'Users reacted like this' appeared in headlines. The comment section had become the official record of the crisis. | 5/ The eventual statement came across as defensive. Sprout Social's 2026 data shows that delayed, defensive responses deepen crisis perception — not just maintain it. | 6/ What would have made a difference? Reading the signal in the first 30 minutes. Understanding urgency level. And asking 'is this a crisis or noise?' — with a system, not a gut check.",
+    "hashtags": [
+      "#CrisisManagement",
+      "#SocialListening"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "text_post",
+    "topic": "Müşterilerle konuşurken fark ettim — AI sosyal dinleme araçlarına güvenmeme sorunu araçtan değil, yorumu anlamamaktan kaynaklanıyor",
+    "caption": "Geçen hafta üç farklı marka ekibiyle konuştum. Hepsi farklı sektörden, hepsi farklı büyüklükte.\n\nAma hepsinde aynı şeyi duydum: 'Aracımız var ama ekip sonuçlara pek güvenmiyor.'\n\nBu beni duraksattı.\n\nBir araştırmayı kontrol ettim: SILab'ın verilerine göre sosyal dinleme ekiplerinin %94'ü AI araç kullanıyor. Ama yalnızca %3'ü çıkan içgörülere tam güveniyor.\n\n%3.\n\nNeden?\n\nKonuştuğum ekiplerin anlattığına bakılırsa: araç 'negatif sentiment' diyor, ama ekip hâlâ 'bu gerçekten bir sorun mu?' diye soruyor. Çünkü araç skor veriyor, anlam vermiyor.\n\nBu farkı kapatmak için Commento'yu tasarlarken şunu sorduk: Sisteme baktığında 'bu yorumda ne olduğunu' değil, 'bu yoruma şimdi ne yapmalıyım?' sorusunu yanıtlayabilir miyiz?\n\nHenüz tam değiliz. Ama bu yönde ilerliyoruz.\n\nSiz ekibinizde bu güvensizliği hissediyor musunuz?",
+    "hashtags": [
+      "#BuildInPublic",
+      "#SosyalDinleme",
+      "#YorumAnalizi",
+      "#SentimentAnalizi",
+      "#Commento",
+      "#KrizYönetimi"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "text_post",
+    "topic": "Build-in-public: The 94%/3% trust gap in social listening tools — what teams told me this week",
+    "caption": "Three brand teams this week. Different industries, different sizes.\n\nSame thing from all three: 'We have the tool. The team doesn't really trust what it tells us.'\n\nThat stopped me.\n\nI checked the data: SILab's State of Social Listening report shows 94% of social listening professionals use AI-powered tools. Only 3% fully trust the AI-generated insights.\n\n3%.\n\nFrom what these teams described: the tool says 'negative sentiment.' But the team still asks — 'is this actually a problem?' Because the tool gives a score. Not a meaning.\n\nThat's the gap Commento is trying to close. Not 'here's a score' — but 'here's what this comment means, and here's what you should probably do about it right now.'\n\nWe're not fully there yet. But that's the direction we're building toward.\n\nDoes your team have this trust gap with your social listening output?",
+    "hashtags": [
+      "#BuildInPublic",
+      "#SocialListening",
+      "#CommentAnalysis",
+      "#Commento",
+      "#CrisisManagement",
+      "#SentimentAnalysis"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "text_post",
+    "topic": "Kısa gözlem: Sosyal dinleme piyasası 12 milyar dolar — ama ekiplerin %97'si araçlarına tam güvenmiyor",
+    "caption": "Kısa gözlem:\n\nSosyal dinleme piyasası 2026'da 12,15 milyar dolar.\n\nAma bu araçları kullanan ekiplerin yalnızca %3'ü AI çıktılarına tam güveniyor.\n\nPara araçlara gidiyor.\nGüven hâlâ ekibin kendisinde kalıyor.\n\nÇözdüğümüz şey bu.",
+    "hashtags": [
+      "#SosyalDinleme",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "text_post",
+    "topic": "Short observation: $12B social listening market — but teams still don't trust the output",
+    "caption": "Quick observation:\n\nThe social listening market hit $12.15B in 2026.\n\nBut only 3% of teams using AI social listening tools say they fully trust the insights those tools produce.\n\nBudgets go to the tools.\nTrust stays with the humans.\n\nThat's the problem Commento is built to solve.",
+    "hashtags": [
+      "#SocialListening",
+      "#Commento"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "image_post",
+    "topic": "Kriz yorumlarda sessizce büyür — ve ekip bunu çoğu zaman çok geç görür",
+    "caption": "Saat 23:58.\n\nBir yorum yazıldı.\nSon derece sakin bir tonda.\n\nAma içinde bir sinyal vardı — aciliyet, hayal kırıklığı ve 'son kez deniyorum' tonu.\n\nEkip onu sabah gördü.\n\nO zaman 312 kişi daha görmüştü.\n\nKrizler bağırmaz. Fısıldar.\n\nCommento bu fısıltıyı duyar.",
+    "hashtags": [
+      "#KrizYönetimi",
+      "#SosyalDinleme",
+      "#YorumAnalizi",
+      "#Commento",
+      "#SentimentAnalizi",
+      "#Moderasyon"
+    ],
+    "design_template": "B",
+    "design_headline": "Kriz fısıldar. Sonra bağırır.",
+    "design_subhead": "Farkı yaratan — fısıltıyı duymak",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-43_13_kriz-yorumlarda-sessizce-büyür-ve-ekip-b_templateB.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-43_13_kriz-yorumlarda-sessizce-büyür-ve-ekip-b_templateB.png"
+    ]
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "image_post",
+    "topic": "Crises whisper in comments — and teams usually see it far too late",
+    "caption": "11:58 PM.\n\nA comment was posted.\nCalm tone. Measured words.\n\nBut inside it — urgency, frustration, and the unmistakable feeling of someone trying one last time.\n\nThe team saw it in the morning.\n\nBy then, 312 others already had.\n\nCrises don't announce themselves.\nThey whisper.\n\nCommento hears the whisper.",
+    "hashtags": [
+      "#CrisisManagement",
+      "#SocialListening",
+      "#CommentAnalysis",
+      "#Commento",
+      "#SentimentAnalysis",
+      "#AIModeration"
+    ],
+    "design_template": "B",
+    "design_headline": "Crises whisper. Then they roar.",
+    "design_subhead": "The difference is hearing the whisper first.",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-43_14_crises-whisper-in-comments-and-teams-usu_templateB.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-43_14_crises-whisper-in-comments-and-teams-usu_templateB.png"
+    ]
+  }
+]
