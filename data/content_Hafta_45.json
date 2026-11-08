@@ -1,0 +1,340 @@
+[
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "Yanlış bilgiye dayalı sosyal medya krizini yorum analiziyle erken yakalamak",
+    "caption": "Bu ay bir tüketim devi Çin'de asılsız bir iddia nedeniyle sosyal medya krizine girdi. Yönetim kuruluna verdiği yanıt üç kelimeydi: 'çok geç kaldık.'\n\nFalse information spreads faster than a correction ever can. Ama sorun, dezenformasyonun hızı değildi. Sorun, sinyal yorum bölümünde görünür hale geldiğinde kimsenin oraya bakmıyor olmasıydı.\n\nBunu Commento'yu geliştirirken tekrar tekrar gördük: markaların büyük çoğunluğu krizden haberdar olduğunda yorumlar çoktan binleri geçmiş oluyor.\n\nYorum bölümü bir kriz barometresidir — ama yalnızca onu gerçek zamanlı okuyabilirseniz.\n\nBir yorum sizi tehdit ediyorsa, bunu 6 saat sonra değil, 6 dakika içinde bilmeniz gerekiyor.\n\nSentiment analizi, niyet çıkarımı, aciliyet sinyali — bunların hepsi yorumda zaten var. Eksik olan, onu otomatik okuyan sistem.",
+    "hashtags": [
+      "#SosyalDinleme",
+      "#KrizYönetimi",
+      "#YorumAnalizi",
+      "#MarkaYönetimi",
+      "#Commento",
+      "#SentimentAnalizi"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "False-information social media crisis and early comment signal detection",
+    "caption": "This month, a major consumer brand acknowledged a social media crisis built entirely on false claims. Their earnings call summary: recovery 'will take time.'\n\nThe information was wrong. But the damage was real — because by the time the brand had context, the narrative had already moved.\n\nHere's what that kind of crisis looks like before it becomes a headline: a cluster of comments with unusual urgency. Specific product accusations. Sentiment shifting sharply in a short window.\n\nAll visible in the comment section. All readable — if you have the right system.\n\nCommento tracks exactly these patterns: not just what people are saying, but how fast sentiment is moving, what intent signals appear, and whether the volume spike looks like organic frustration or coordinated noise.\n\nThe brands that contain crises aren't faster at responding. They're faster at seeing.",
+    "hashtags": [
+      "#SocialListening",
+      "#CrisisManagement",
+      "#CommentAnalysis",
+      "#BrandProtection",
+      "#Commento",
+      "#SentimentAnalysis"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Carousel/Doküman",
+    "topic": "AI güven açığında yorum analizinin rolü — 4 slayt",
+    "caption": "Slide 1: Tüketicilerin %40'ı artık AI ağırlıklı marka kullanımından güven kaybı yaşıyor. Bir yıl önce bu oran %20'ydi. | Slide 2: Ama güven açığı AI kullanmaktan değil, AI'ı yanlış yerde kullanmaktan doğuyor. Tüketiciler AI'ın arka planda çalışmasından rahatsız değil — yorum bölümünde bir bot gibi yanıt verdiğinizden rahatsız. | Slide 3: Commento'nun yaptığı tam da bu ayrımı korumak: Yorumları AI ile okuyun, sentiment ve niyeti otomatik çıkarın — ama markanın sesi her zaman insan kalsın. Moderasyon otomatik, ses özgün. | Slide 4: Yorum analizini otomatikleştirmek güveni azaltmaz. Aksine, doğru yoruma doğru zamanda doğru sesle yanıt vermenizi sağlar. Bu fark, %76 tüketicinin 'yorumlarıma yanıt veren markaya daha sadığım' dediği dünyada hayati önem taşıyor.",
+    "hashtags": [
+      "#AIGüven",
+      "#YorumAnalizi",
+      "#SosyalDinleme",
+      "#Commento",
+      "#MüşteriDeneyimi",
+      "#Moderasyon"
+    ],
+    "design_template": "C",
+    "design_headline": "AI güven açığında yorum analizinin rolü",
+    "design_subhead": "Doğru yerde AI, doğru yerde insan sesi",
+    "design_icon_category": "ai_moderasyon",
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-45_03_ai-güven-açığında-yorum-analizinin-rolü-_templateC.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-45_03_ai-güven-açığında-yorum-analizinin-rolü-_templateC.png"
+    ]
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "company",
+    "format": "Carousel/Doküman",
+    "topic": "Comment analysis in the AI trust gap — 4 slides",
+    "caption": "Slide 1: 40% of consumers say heavy AI use would decrease their trust in a favorite brand. A year ago, that number was 20%. | Slide 2: But the trust gap isn't caused by using AI — it's caused by using AI in the wrong place. Consumers don't mind AI working behind the scenes. They mind when it shows up in comments pretending to be human. | Slide 3: That's exactly the distinction Commento preserves. Read comments with AI, extract sentiment and intent automatically — but keep the brand voice human. Moderation automated, voice authentic. | Slide 4: Automating comment analysis doesn't erode trust. It means the right comment gets the right response at the right moment. That matters in a world where 76% of consumers say they feel more loyal to brands that actually reply.",
+    "hashtags": [
+      "#AITrust",
+      "#CommentAnalysis",
+      "#SocialListening",
+      "#Commento",
+      "#CustomerExperience",
+      "#ContentModeration"
+    ],
+    "design_template": "C",
+    "design_headline": "Comment analysis in the AI trust gap",
+    "design_subhead": "AI behind the scenes. Human voice in front.",
+    "design_icon_category": "ai_moderasyon",
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-45_04_comment-analysis-in-the-ai-trust-gap-4-s_templateC.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-45_04_comment-analysis-in-the-ai-trust-gap-4-s_templateC.png"
+    ]
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "Yorum bölümünde güven sinyali — AI güven çöküşü ve markaların fırsatı",
+    "caption": "Tüketicilerin %40'ı AI ağırlıklı marka davranışından güven kaybı yaşıyor. Bir yıl önce %20'ydi.\n\nAma bu, yorumlarınızı AI ile analiz etmemeniz gerektiği anlamına gelmiyor.\n\nAnlamı şu: Yorumları arka planda AI ile okuyun. Öne çıkana insan sesiyle yanıt verin.\n\nCommento tam bu katmanı yönetir.",
+    "hashtags": [
+      "#SosyalDinleme",
+      "#YorumAnalizi"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Metin Postu",
+    "topic": "AI trust gap and comment analysis — the right layer for AI",
+    "caption": "40% of consumers say heavy AI use hurts brand trust. Up from 20% last year.\n\nBut that's not an argument against AI comment analysis.\n\nIt's an argument for using AI in the right layer: read comments automatically, surface what matters, respond as a human.\n\nCommento handles the layer that shouldn't be visible.",
+    "hashtags": [
+      "#SocialListening",
+      "#CommentAnalysis"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Thread",
+    "topic": "Yorum bölümünde kriz nasıl büyür — ve her aşamada ne yapılabilir (farklı konu: yanıt hızı değil, sinyal tipi)",
+    "caption": "1/ Bu ay bir büyük marka, asılsız bir sosyal medya iddiasına dayalı kriz yaşadı. Kazanç görüşmesinde söyledikleri: 'toparlanması zaman alacak.' Peki yorum bölümünde ne olmuştu, aşama aşama anlatalım. | 2/ Aşama 1 — Fısıltı: Birkaç kullanıcı benzer iddiayı paylaşmaya başlar. Bireysel şikayete benziyor. Sentiment henüz olumsuz değil, sadece 'meraklı' sorular. Çoğu marka bu aşamayı tamamen kaçırır. | 3/ Aşama 2 — Yankı: Benzer yorumlar farklı platformlarda eş zamanlı artmaya başlar. Kelime kalıpları tekrarlanıyor — organik değil, koordineli görünüyor. Bu, sinyal tipi değişiyor demektir. | 4/ Aşama 3 — Patlama: Medya hesapları yorumları alıntılamaya başlar. Artık yorum bölümü değil, haber akışı. Bu noktada yanıt süresi değil, önceki 2 aşamada ne yaptığınız önemlidir. | 5/ Aşama 4 — Hasar: Marka nihayet yanıt verir — ama anlatı çoktan şekillenmiş. İyileşme aylar alır. Asıl maliyet, aşama 1-2'deki kör noktadır. Commento, o kör noktayı kapatır.",
+    "hashtags": [
+      "#KrizYönetimi",
+      "#YorumAnalizi",
+      "#SosyalDinleme"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "company",
+    "format": "Thread",
+    "topic": "How a crisis grows in comments — 4 stages, signal-type lens (different topic from TR thread)",
+    "caption": "1/ A major consumer brand this quarter acknowledged a social media crisis built on false information. Recovery 'will take time,' they said. Here's what it looked like in the comment section, stage by stage. | 2/ Stage 1 — Whisper: A few users post similar claims. Looks like individual curiosity. Sentiment isn't negative yet — just pointed questions. Most brands never see this stage. | 3/ Stage 2 — Pattern: Same language appears across platforms simultaneously. That's not organic frustration — it's a signal type shift. The comment section is telling you something specific. | 4/ Stage 3 — Amplification: Media accounts quote the comments. Now it's not a comment section problem, it's a news cycle problem. At this point, your response speed matters far less than what you did in stages 1 and 2. | 5/ Stage 4 — Damage: The brand responds — but the narrative is set. Recovery takes quarters, not days. The real cost was the blind spot at stage 1. That's the blind spot Commento closes.",
+    "hashtags": [
+      "#CrisisManagement",
+      "#SocialListening",
+      "#CommentIntelligence"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Build-in-public: Tüketiciler AI'ya güvenmiyor — ama bu Commento için tam da doğru soru",
+    "caption": "Bu hafta bir marka yöneticisiyle konuşuyordum. 'AI moderasyona geçmek istiyoruz ama ekip ikna olmadı — tüketiciler AI yorumlarını fark edip olumsuz tepki verirse ne olur?' dedi.\n\nSoruyu duyduğumda içimden 'tam tersini soruyor' dedim.\n\nTüketiciler AI'ın YORUM yazdığından rahatsız. AI'ın yorumları OKUDUğundan değil.\n\nBu iki şey aynı değil. Birincisi güven sorunu yaratır. İkincisi, tam tersine, daha hızlı ve daha tutarlı insan yanıtı demek.\n\nCommento'yu tasarlarken bu ayrımı her kararda koruduk: sentiment çıkarımı, niyet analizi, kriz sinyali — bunların hepsi arka planda. Sahneye çıkan ses her zaman marka.\n\nVe veriler bu ayrımı destekliyor: tüketicilerin %76'sı yorumlarına yanıt veren markalara daha sadık. Yanıtın arkasında AI olup olmadığına değil — yanıt gelip gelmediğine bakıyorlar.\n\nDoğru soru 'AI görünür mü?' değil: 'AI doğru kişiye, doğru anda, doğru sinyali gösteriyor mu?'",
+    "hashtags": [
+      "#BuildInPublic",
+      "#YorumAnalizi",
+      "#SosyalDinleme",
+      "#AIGüven",
+      "#Commento",
+      "#KuruculuğunGerçeği"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "LinkedIn",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Build-in-public: The AI trust debate is asking the wrong question for comment analysis",
+    "caption": "Had a conversation this week with a brand manager who said: 'We want to move to AI comment moderation, but the team is nervous — what if consumers notice and react badly?'\n\nI kept thinking: they're asking the wrong question.\n\nConsumers are reacting badly to AI writing comments. Not to AI reading them.\n\nThose are completely different things. One creates a trust problem. The other enables faster, more consistent human responses.\n\nWhen we built Commento, we held that distinction in every design decision: sentiment extraction, intent analysis, urgency signals — all invisible. What reaches the team is a prioritized queue. What reaches the customer is a human.\n\nAnd the data supports this: 76% of consumers say they feel more loyal to brands that reply to their comments. They're not asking whether AI was involved. They're asking whether anyone showed up.\n\nThe right question isn't 'will consumers see the AI?' It's: 'Is the AI showing the right person the right signal at the right moment?'",
+    "hashtags": [
+      "#BuildInPublic",
+      "#CommentAnalysis",
+      "#SocialListening",
+      "#AITrust",
+      "#Commento",
+      "#FounderPerspective"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Kısa gözlem: Tüketiciler AI yorumundan rahatsız — AI okuyucusundan değil",
+    "caption": "Kısa gözlem:\n\nTüketicilerin %40'ı AI ağırlıklı marka davranışına güvenmiyor. Bir yıl önce %20'ydi.\n\nAma 'AI moderasyona geçmeyelim' sonucu bu veriden çıkmaz.\n\nTüketiciler AI'ın yorum YAZMASINA itiraz ediyor. Yorumları OKUMASına değil.\n\nBu farkı görmeyen markalar hem yavaş kalıyor hem de güven kaybı yaşıyor — aynı anda.",
+    "hashtags": [
+      "#SosyalDinleme",
+      "#AIGüven"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Twitter/X",
+    "account_type": "founder",
+    "format": "Metin Postu",
+    "topic": "Short observation: consumers distrust AI writing comments, not AI reading them",
+    "caption": "Quick observation:\n\n40% of consumers say heavy brand AI use hurts trust. Double last year.\n\nBut the conclusion isn't 'don't use AI for comments.'\n\nConsumers object to AI writing the replies. Not to AI reading the comments.\n\nBrands that miss this distinction end up slow AND untrustworthy at the same time.",
+    "hashtags": [
+      "#SocialListening",
+      "#AITrust"
+    ],
+    "design_template": null,
+    "design_headline": null,
+    "design_subhead": null,
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "Görsel Post",
+    "topic": "Yorum bölümünde kriz sinyali — asılsız iddia bile sizi vurur",
+    "caption": "Bu ay bir marka, asılsız bir iddiadan kaynaklanan sosyal medya kriziyle karşılaştı.\n\nYanlış bilgiydi. Ama hasar gerçekti.\n\nÇünkü yorum bölümündeki sinyal görünür olduğunda kimse bakacak bir sistem kuramamıştı.\n\nYorum bölümü her zaman önce konuşur. Haber sonra yazar.\n\nCommento, o ilk sinyali kaçırmanıza izin vermiyor.",
+    "hashtags": [
+      "#SosyalDinleme",
+      "#KrizYönetimi",
+      "#Commento"
+    ],
+    "design_template": "A",
+    "design_headline": "Kriz önce yorumda fısıldar.",
+    "design_subhead": "Sisteminiz dinliyor mu?",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-45_13_yorum-bölümünde-kriz-sinyali-asılsız-idd_templateA.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-45_13_yorum-bölümünde-kriz-sinyali-asılsız-idd_templateA.png"
+    ]
+  },
+  {
+    "platform": "Instagram",
+    "account_type": "company",
+    "format": "Görsel Post",
+    "topic": "Comment section speaks first — crisis signal in comments before headlines",
+    "caption": "This month, a brand faced a crisis built on false information.\n\nThe claims were wrong. The damage was real.\n\nBecause when the signal appeared in the comment section, no system was watching.\n\nThe comment section always speaks first. The headline writes later.\n\nCommento makes sure you don't miss the first word.",
+    "hashtags": [
+      "#SocialListening",
+      "#CrisisManagement",
+      "#Commento"
+    ],
+    "design_template": "A",
+    "design_headline": "Crisis whispers in comments first.",
+    "design_subhead": "Is your system listening?",
+    "design_icon_category": null,
+    "stat_number": null,
+    "stat_unit": null,
+    "stat_label": null,
+    "list_item_1": null,
+    "list_item_2": null,
+    "list_item_3": null,
+    "design_image_path": "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-45_14_comment-section-speaks-first-crisis-sign_templateA.png",
+    "design_image_paths": [
+      "/home/runner/work/Commento-Content-Creation/Commento-Content-Creation/output/hafta-45_14_comment-section-speaks-first-crisis-sign_templateA.png"
+    ]
+  }
+]
